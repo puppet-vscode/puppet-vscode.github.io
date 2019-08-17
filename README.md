@@ -1,1 +1,0 @@
-# puppet-vscode.github.io

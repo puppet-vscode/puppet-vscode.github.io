@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.57.0" />
+
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+
+<link rel="shortcut icon" href="/favicons/favicon.ico" >
+<link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicons/android-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/favicons/android-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicons/android-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/favicons/android-96x196.png" sizes="96x196">
+<link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/favicons/android-192x192.png"sizes="192x192">
+
+<title>Getting Started | Puppet VSCode Extension</title><meta property="og:title" content="Getting Started" />
+<meta property="og:description" content="How to start using the Puppet VS Code Extension
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://puppet-vscode.github.io/docs/getting-started/" />
+<meta property="article:modified_time" content="2019-08-15T15:08:28+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
+<meta itemprop="name" content="Getting Started">
+<meta itemprop="description" content="How to start using the Puppet VS Code Extension
+">
+
+
+<meta itemprop="dateModified" content="2019-08-15T15:08:28&#43;08:00" />
+<meta itemprop="wordCount" content="574">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting Started"/>
+<meta name="twitter:description" content="How to start using the Puppet VS Code Extension
+"/>
+
+
+
+
+
+
+
+<link rel="preload" href="/scss/main.min.b48fe4d70d0d2f4ce81094a94bd51b591798fc97d731e5f4962634f048964b19.css" as="style">
+<link href="/scss/main.min.b48fe4d70d0d2f4ce81094a94bd51b591798fc97d731e5f4962634f048964b19.css" rel="stylesheet" integrity="">
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+    <title>Getting Started | Puppet VSCode Extension</title>
+  </head>
+  <body class="td-page">
+    <header>
+      
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
+        <a class="navbar-brand" href="/">
+    <span class="navbar-logo"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg3713" width="30" height="30" viewBox="0 0 30 30.000001" sodipodi:docname="puppet-logo-amber.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><defs id="defs3717" /><sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="2544" inkscape:window-height="1221" id="namedview3715" showgrid="false" inkscape:zoom="9.1657311" inkscape:cx="95.465911" inkscape:cy="-12.96395" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="g3721" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" /><g id="g3721" inkscape:groupmode="layer" inkscape:label="Puppet-Logo-Mark-Amber" transform="matrix(1.3333333,0,0,-1.3333333,-30.985333,60.985317)"><path d="m32.416539 25.664063h-2.164731v2.16473h2.164731zm-2.164731 17.420479h2.164731v-2.16473h-2.164731zm11.960601-5.463051h-4.96675l.0015.0015-2.66579 2.66579v4.96057h-6.494368v-6.494377h4.966749l2.662712-2.662711.0016.0015v-3.439051l-.0032.0032-2.664205-2.664297v0H28.087v-6.494377h6.494377v4.963577.0l2.664204 2.664297h4.966843z" style="fill:#ffae1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:.09330733" id="path3723" inkscape:connector-curvature="0" /></g></svg></span><span class="text-uppercase font-weight-bold">Puppet VSCode Extension</span>
+    
+    <a class="btn btn-sm btn-secondary text-dark ml-2" href="vscode:extension/jpogran.puppet-vscode">
+      Install <i class="fa fa-download ml-2 "></i>
+    </a>
+    
+  </a>
+  <div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+    <ul class="navbar-nav mt-2 mt-lg-0">
+      
+      
+      <li class="nav-item mr-4 mb-2 mb-lg-0">
+        
+        
+        
+        
+        
+        
+        <a class="nav-link active" href="/docs/" ><span class="active">Documentation</span></a>
+      </li>
+      
+      <li class="nav-item mr-4 mb-2 mb-lg-0">
+        
+        
+        
+        
+        
+        
+        <a class="nav-link" href="/blog/releases/" ><span>Releases</span></a>
+      </li>
+      
+      <li class="nav-item mr-4 mb-2 mb-lg-0">
+        
+        
+        
+        
+        
+        
+        <a class="nav-link" href="/community/" ><span>Community</span></a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  <div class="navbar-nav d-none d-lg-block"></div>
+</nav>
+
+    </header>
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+            
+
+
+
+
+<div id="td-sidebar-menu" class="td-sidebar__inner">
+  
+  <form class="td-sidebar__search d-flex align-items-center">
+    
+    <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type="button" data-toggle="collapse" data-target="#td-section-nav" aria-controls="td-docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    </button>
+  </form>
+  
+  <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
+    
+    
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Documentation</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docs">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docs-getting-started" href="/docs/getting-started/">Getting Started</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-extension-settings" href="/docs/extension-settings/">Extension Settings</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-experience-a-problem" href="/docs/experience-a-problem/">Experiencing a Problem?</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-telemetry" href="/docs/telemetry/">Telemetry</a>
+      
+      
+      
+      
+
+
+
+
+
+
+<ul class="td-sidebar-nav__section pr-md-3">
+  <li class="td-sidebar-nav__section-title">
+    <a  href="/docs/features/" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">Features</a>
+  </li>
+  <ul>
+    <li class="collapse show" id="docs-features">
+      
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-code-navigation" href="/docs/features/code-navigation/">Code Navigation</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-control-repository" href="/docs/features/control-repository/">Control Repositories</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-debugging-puppet-code" href="/docs/features/debugging-puppet-code/">Debugging Puppet Code</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-intellisense" href="/docs/features/intellisense/">Intellisense</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-linting" href="/docs/features/linting/">Linting</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-puppet-bolt" href="/docs/features/puppet-bolt/">Puppet Bolt</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-puppet-commands" href="/docs/features/puppet-commands/">Puppet Commands</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-puppet-development-kit" href="/docs/features/puppet-development-kit/">Puppet Development Kit</a>
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-remote-development" href="/docs/features/remote-development/">Remote Development</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+      
+      
+      
+      
+      
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-project-maintainers" href="/docs/project-maintainers/">Project Maintainers</a>
+      
+      
+    </li>
+  </ul>
+</ul>
+
+  </nav>
+</div>
+
+
+
+
+          </div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+            
+
+
+
+
+
+<div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+
+
+
+
+
+
+<a href="https://github.com/lingua-pupuli/docs/edit/master/vscode/content/en/docs/Getting%20Started.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/lingua-pupuli/docs/issues/new?title=Getting%20Started" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+
+
+
+<a href="https://github.com/lingua-pupuli/puppet-vscode/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
+
+</div>
+
+
+
+
+
+
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#quick-start">Quick Start</a></li>
+<li><a href="#prerequisites">Prerequisites</a>
+<ul>
+<li><a href="#pdk">PDK</a></li>
+<li><a href="#puppet-agent">Puppet-Agent</a></li>
+<li><a href="#platform-support">Platform support</a></li>
+</ul></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#setup">Setup</a>
+<ul>
+<li><a href="#automatic-configuration">Automatic configuration</a>
+<ul>
+<li><a href="#configure-extension-to-use-pdk">Configure extension to use PDK</a></li>
+<li><a href="#configure-puppet-version-in-pdk">Configure Puppet Version in PDK</a></li>
+<li><a href="#configure-extension-to-use-puppet-agent">Configure extension to use Puppet-Agent</a></li>
+</ul></li>
+<li><a href="#loading-indicator">Loading indicator</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+
+
+
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+	<ol class="breadcrumb spb-1">
+		
+
+
+
+
+
+
+
+<li class="breadcrumb-item" >
+	<a href="https://puppet-vscode.github.io/docs/">Documentation</a>
+</li>
+
+
+
+
+<li class="breadcrumb-item active" aria-current="page">
+	<a href="https://puppet-vscode.github.io/docs/getting-started/">Getting Started</a>
+</li>
+
+	</ol>
+</nav	>
+
+            
+<div class="td-content">
+	<h1>Getting Started</h1>
+	<div class="lead">How to start using the Puppet VS Code Extension</div>
+	
+
+<h2 id="quick-start">Quick Start</h2>
+
+<ul>
+<li><p>Step 1: Install a supported version of the Puppet Development Kit on your system (see <a href="#prerequisites">Prerequisites</a> for more information).</p></li>
+
+<li><p>Step 2: <a href="https://code.visualstudio.com/docs/editor/extension-gallery#_install-an-extension" target="_blank">Install</a> the Puppet <a href="https://marketplace.visualstudio.com/items?itemName=jpogran.puppet-vscode" target="_blank">extension</a> for Visual Studio Code.</p></li>
+
+<li><p>Step 3: Open, or create, a Puppet manifest file (a file with a <code>.pp</code> or <code>.epp</code> extension) or a <a href="https://puppet.com/docs/pe/latest/puppetfile.html" target="_blank"><code>Puppetfile</code></a> and start automating!</p></li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>You will need to have the <a href="https://puppet.com/docs/puppet/4.10/about_agent.html" target="_blank">Puppet Agent</a> or <a href="https://puppet.com/docs/pdk/1.x/pdk.html" target="_blank">Puppet Development Kit (PDK)</a> installed in order to fully use this extension.</p>
+
+<p>You can find instructions and installation links here:</p>
+
+<h3 id="pdk">PDK</h3>
+
+<blockquote>
+<p>Note: PDK version 1.5.0 or higher is required.</p>
+</blockquote>
+
+<ul>
+<li><a href="https://puppet.com/download-puppet-development-kit" target="_blank">Download page</a></li>
+</ul>
+
+<h3 id="puppet-agent">Puppet-Agent</h3>
+
+<blockquote>
+<p>Note: Puppet Agent 5.5 and above is preferred.</p>
+</blockquote>
+
+<ul>
+<li><p><a href="https://docs.puppet.com/puppet/latest/install_windows.html" target="_blank">Windows</a></p></li>
+
+<li><p><a href="https://docs.puppet.com/puppet/latest/install_osx.html" target="_blank">MacOSX</a></p></li>
+
+<li><p><a href="https://docs.puppet.com/puppet/latest/install_linux.html" target="_blank">Linux</a></p></li>
+</ul>
+
+<h3 id="platform-support">Platform support</h3>
+
+<ul>
+<li>Microsoft Windows</li>
+<li>MacOSX</li>
+<li>Linux</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>The VS Code Marketplace has many extensions, including the Puppet Extension. To quickly install the Puppet Extension, click on the <code>Install</code> button at the top of this page.</p>
+
+<p>You can install the official release of the Puppet extension by following the steps in the <a href="https://code.visualstudio.com/docs/editor/extension-gallery" target="_blank">Visual Studio Code documentation</a>. In the Extensions pane, search for <code>puppet-vscode</code> extension and install it there. You will get notified automatically about any future extension updates!</p>
+
+<p><img src="https://puppet-vscode.github.io/img/extension_install.gif" alt="extension_install" /></p>
+
+<p>You can also install the extension without access to the internet by following these <a href="https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix" target="_blank">instructions</a>.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>While the default configuration for the Puppet Extension will get you up and running quickly, you may want to tailor the configuration to your own liking. All of the available settings are detailed in the <a href="../extension-settings">Extension Settings</a> documentation.
+Now that you&rsquo;ve installed the extension you may want configure</p>
+
+<h3 id="automatic-configuration">Automatic configuration</h3>
+
+<p>By default the extension attempts to automatically find a valid installation of the PDK on your system. If a PDK installation is not found, it attempts to find a Puppet Agent installation. The locations it looks for are the default install locations for each product. Exact default values for these locations can be found in <a href="../extension-settings">Extension Settings</a> documentation.</p>
+
+<h4 id="configure-extension-to-use-pdk">Configure extension to use PDK</h4>
+
+<p>To ensure that the extension uses the <code>PDK</code>, set the <code>puppet.installType</code> setting to the <code>pdk</code> value like so:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installType&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;pdk&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>The default installation paths stored in the extension are:</p>
+
+<p>Windows:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;C:\\Program Files\\Puppet Labs\\DevelopmentKit&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>OSX:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;/opt/puppetlabs/pdk&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>Linux:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;/opt/puppetlabs/pdk&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>To use a custom install path for the <code>PDK</code>, set the <code>puppet.installDirectory</code> setting to the path you installed the <code>PDK</code> to:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;D:/programs/pdk&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<h4 id="configure-puppet-version-in-pdk">Configure Puppet Version in PDK</h4>
+
+<p>The <code>PDK</code> has many versions of Puppet which can be used. Set the <code>puppet.editorService.puppet.version</code> setting to the version you would like to use, for example, if you wanted to use version 5.4.0, then set the configuration to:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.editorService.puppet.version&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;5.4.0&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>You can also change the version from the status bar in Visual Studio Code.  Click on the Puppet version text in the status bar and then select which Puppet version you would like to use. Note that this will require Visual Studio Code to be restarted to take effect.</p>
+
+<p><img src="https://puppet-vscode.github.io/img/change-puppet-version.gif" alt="changing_puppet_version" /></p>
+
+<h4 id="configure-extension-to-use-puppet-agent">Configure extension to use Puppet-Agent</h4>
+
+<p>To ensure that the extension uses the Puppet-Agent, set the <code>puppet.installType</code> setting to the <code>puppet</code> value like so:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installType&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;puppet&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>The default installation paths stored in the extension are:</p>
+
+<p>Windows:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;C:\\Program Files\\Puppet Labs\\Puppet&#34;</span><span style="color:#000;font-weight:bold">,</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>OSX</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;/opt/puppetlabs&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>Linux:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;/opt/puppetlabs&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<p>To use a custom install path for the Puppet-Agent, set the <code>puppet.installDirectory</code> setting to the path you installed the Puppet-Agent to:</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;puppet.installDirectory&#34;</span><span style="color:#000;font-weight:bold">:</span><span style="color:#4e9a06">&#34;D:/programs/puppet&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
+<h3 id="loading-indicator">Loading indicator</h3>
+
+<p>The Puppet extension includes additional information in the form of a tooltip which describes the features that are loaded and still loading during startup.</p>
+
+<p><img src="https://puppet-vscode.github.io/img/loading_status.gif" alt="loading_status" /></p>
+
+	
+	
+	<div class="text-muted mt-5 pt-3 border-top">Last modified August 15, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/3e8e2efee7c8ac1579332c8fdf6ed09a20a2a888">(GH-2) Use Docsy as template for all sites. (3e8e2ef)</a>
+</div>
+</div>
+
+
+          </main>
+        </div>
+      </div>
+      
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack" aria-label="Slack">
+    <a class="text-white" target="_blank" href="https://puppetcommunity.slack.com/">
+      <i class="fab fa-slack"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
+    <a class="text-white" target="_blank" href="https://twitter.com/puppetize">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Youtube Vidoes about Puppet VS Code" aria-label="Youtube Vidoes about Puppet VS Code">
+    <a class="text-white" target="_blank" href="https://www.youtube.com/results?search_query=%23PuppetizeLive">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="VS Code Marketplace" aria-label="VS Code Marketplace">
+    <a class="text-white" target="_blank" href="https://pup.pt/vscode">
+      <i class="fab fa-microsoft"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+        
+        
+        
+<ul class="list-inline mb-0">
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
+    <a class="text-white" target="_blank" href="https://github.com/lingua-pupuli/puppet-vscode">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+  
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Project Maintainers" aria-label="Project Maintainers">
+    <a class="text-white" target="_blank" href="https://github.com/orgs/lingua-pupuli/people">
+      <i class="fa fa-user-friends"></i>
+    </a>
+  </li>
+  
+</ul>
+
+        
+        
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        <small class="text-white">&copy; 2019 James Pogran, Glenn Sarti, Michael Lombardi All Rights Reserved</small>
+        
+	
+		
+	
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+<script src="/js/main.min.6ab52543d649f6f1b6cef8f6d88b9240eb2ac7807b467b0e970e2fadf089b954.js" integrity="sha256-arUlQ9ZJ9vG2zvj22IuSQOsqx4B7RnsOlw4vrfCJuVQ="></script>
+
+
+
+  </body>
+</html>

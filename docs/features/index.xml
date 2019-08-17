@@ -1,0 +1,385 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppet VSCode Extension – Features</title>
+    <link>https://puppet-vscode.github.io/docs/features/</link>
+    <description>Recent content in Features on Puppet VSCode Extension</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://puppet-vscode.github.io/docs/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Code Navigation</title>
+      <link>https://puppet-vscode.github.io/docs/features/code-navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/code-navigation/</guid>
+      <description>
+        
+        
+        
+
+&lt;h2 id=&#34;outline-view&#34;&gt;Outline View&lt;/h2&gt;
+
+&lt;p&gt;The new &lt;code&gt;Outline View&lt;/code&gt; shows the symbol tree of the currently selected Puppet manifest.&lt;/p&gt;
+
+&lt;p&gt;Supported symbols:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Class&lt;/li&gt;
+&lt;li&gt;Defined Type&lt;/li&gt;
+&lt;li&gt;Attribute&lt;/li&gt;
+&lt;li&gt;Variable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More symbols are planned to be added.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Outline View is not support on Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/outline_view.gif&#34; alt=&#34;outline_view&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;breadcrumbs&#34;&gt;Breadcrumbs&lt;/h2&gt;
+
+&lt;p&gt;When the &lt;code&gt;breadcrumbs.enabled&lt;/code&gt; setting is set to true, both the file path and the symbol tree hierarchy are shown in the Breadcrumb view.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Breadcrumbs are not support on Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/breadcrumbs.gif&#34; alt=&#34;breadcrumbs&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;go-to-symbol&#34;&gt;Go to Symbol&lt;/h2&gt;
+
+&lt;p&gt;Opening the &lt;code&gt;Command Palette&lt;/code&gt; and typing the &lt;code&gt;@&lt;/code&gt; symbol initiates the &lt;code&gt;Go to Symbol&lt;/code&gt; view which allows you to navigate around inside a Puppet manifest more quickly.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Go to Symbol is not support on Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/go_to_symbol.gif&#34; alt=&#34;go_to_symbol&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;open-symbol-by-name&#34;&gt;Open Symbol by Name&lt;/h2&gt;
+
+&lt;p&gt;Pressing &lt;code&gt;Ctrl+T&lt;/code&gt; (or ⌘T on OSX) will list all &lt;a href=&#34;https://puppet.com/docs/puppet/latest/custom_types.html&#34; target=&#34;_blank&#34;&gt;Puppet Custom Types&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html&#34; target=&#34;_blank&#34;&gt;Functions&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_classes.html&#34; target=&#34;_blank&#34;&gt;Classes&lt;/a&gt; and &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_defined_types.html&#34; target=&#34;_blank&#34;&gt;Defined Types&lt;/a&gt; in the workspace. You can then &lt;a href=&#34;https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name&#34; target=&#34;_blank&#34;&gt;navigate to the symbol&lt;/a&gt; by pressing &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Open Symbol by Name has limited support using Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Control Repositories</title>
+      <link>https://puppet-vscode.github.io/docs/features/control-repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/control-repository/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Coming Soon&lt;/h4&gt;
+&lt;p&gt;Control Repositories&lt;/p&gt;
+
+&lt;p&gt;Under active development!!&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Debugging Puppet Code</title>
+      <link>https://puppet-vscode.github.io/docs/features/debugging-puppet-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/debugging-puppet-code/</guid>
+      <description>
+        
+        
+        
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
+This is an experimental feature
+&lt;/div&gt;
+
+
+&lt;p&gt;The Puppet extension is able to debug the compilation of a Puppet manifest; much like the Go, PowerShell, and C# languages. The debugger supports:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Line breakpoints but not conditions on those breakpoints&lt;/li&gt;
+&lt;li&gt;Function breakpoints&lt;/li&gt;
+&lt;li&gt;Exception breakpoints&lt;/li&gt;
+&lt;li&gt;Call stack&lt;/li&gt;
+&lt;li&gt;Variables, but only at the top stack frame&lt;/li&gt;
+&lt;li&gt;Limited interactive debug console.  For example, you can assign a variable a value, but just as in regular Puppet you can&amp;rsquo;t change its value later&lt;/li&gt;
+&lt;li&gt;Step In, Out, and Over&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppet_debug.gif&#34; alt=&#34;Puppet Debug Adapter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The debugging features in the extension are based on the excellent ideas in &lt;a href=&#34;https://www.puppet-debugger.com/&#34; target=&#34;_blank&#34;&gt;puppet-debugger&lt;/a&gt; by &lt;a href=&#34;https://github.com/nwops&#34; target=&#34;_blank&#34;&gt;Corey Osman&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;configuring-the-debug-session&#34;&gt;Configuring the debug session&lt;/h4&gt;
+
+&lt;p&gt;To debug a simple manifest in VS Code, press &lt;code&gt;F5&lt;/code&gt; and VS Code will try to debug your currently active manifest by running the equivalent of &lt;code&gt;puppet apply&lt;/code&gt;. Note that by default No Operation (&lt;code&gt;--noop&lt;/code&gt;) is enabled so that your local computer will not be modified.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/debugging#_launch-configurations&#34; target=&#34;_blank&#34;&gt;VSCode Debugging - Launch Configurations&lt;/a&gt; website has instructions on how to configure the debug session with more advanced options.&lt;/p&gt;
+
+&lt;h4 id=&#34;settings&#34;&gt;Settings&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;manifest&lt;/code&gt; - The manifest to apply.  By default this is the currently open file in the editor&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;noop&lt;/code&gt; - Whether the &lt;code&gt;puppet apply&lt;/code&gt; sets No Operation (NoOp) mode.  By default, this is set to true.  This means when running the debugger it will not make changes to your system. The &lt;a href=&#34;https://puppet.com/docs/puppet/latest/man/apply.html#OPTIONS&#34; target=&#34;_blank&#34;&gt;documentation about the puppet agent&lt;/a&gt; has more information about &lt;code&gt;puppet apply&lt;/code&gt; and and the &lt;code&gt;noop&lt;/code&gt; option.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;args&lt;/code&gt; - Additional arguments to pass to &lt;code&gt;puppet apply&lt;/code&gt;, for example &lt;code&gt;[&#39;--debug&#39;]&lt;/code&gt; will output debug information&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Intellisense</title>
+      <link>https://puppet-vscode.github.io/docs/features/intellisense/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/intellisense/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/editor/intellisense&#34; target=&#34;_blank&#34;&gt;IntelliSense&lt;/a&gt; is a general term for a variety of code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as &amp;ldquo;code completion&amp;rdquo;, &amp;ldquo;content assist&amp;rdquo;, and &amp;ldquo;code hinting.&amp;rdquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Syntax highlighting recognizes all versions of Puppet and displays as you type.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Puppet DSL&lt;/li&gt;
+&lt;li&gt;Puppet Grammar&lt;/li&gt;
+&lt;li&gt;Module metadata files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/syntax_highlighting.png&#34; alt=&#34;syntax_highlighting&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;auto-completion&#34;&gt;Auto Completion&lt;/h2&gt;
+
+&lt;p&gt;Auto complete Puppet types and classes and their parameter sets as you type. Tab completion works as you would expect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/auto_complete.gif&#34; alt=&#34;auto_complete&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hover-support&#34;&gt;Hover Support&lt;/h2&gt;
+
+&lt;p&gt;Hovering over any resource, class declaration or other Puppet symbol provides instant contextual information. For example, hovering over the resource declaration lists the type name and parameter list, with all relevant help text.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/hover_support.gif&#34; alt=&#34;hover_support&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;code-snippets&#34;&gt;Code Snippets&lt;/h2&gt;
+
+&lt;p&gt;As part of &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets&#34; target=&#34;_blank&#34;&gt;IntelliSense and Snippets&lt;/a&gt;, you can quickly create templates to automate repetitive series of code.&lt;/p&gt;
+
+&lt;h2 id=&#34;live-workspace-intellisense&#34;&gt;Live Workspace Intellisense&lt;/h2&gt;
+
+&lt;p&gt;If you are editing a module, or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/control_repo.html&#34; target=&#34;_blank&#34;&gt;Control Repository&lt;/a&gt;, you will  get live intellisense of the &lt;a href=&#34;https://puppet.com/docs/puppet/latest/custom_types.html&#34; target=&#34;_blank&#34;&gt;Puppet Custom Types&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html&#34; target=&#34;_blank&#34;&gt;Functions&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_classes.html&#34; target=&#34;_blank&#34;&gt;Classes&lt;/a&gt; and &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_defined_types.html&#34; target=&#34;_blank&#34;&gt;Defined Types&lt;/a&gt;. For example if you are editing the &lt;a href=&#34;https://github.com/puppetlabs/puppetlabs-apache&#34; target=&#34;_blank&#34;&gt;puppetlabs-apache module&lt;/a&gt; you will be able to get auto-complete for resources like &lt;code&gt;apache::vhost&lt;/code&gt; or &lt;code&gt;apache::mod::php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Workspace Intellisense is only updated when you save a file, instead of features like linting which update as you type&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Linting</title>
+      <link>https://puppet-vscode.github.io/docs/features/linting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/linting/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Linting is automatically applied to the document as you edit, without having to save the file first. The validation uses &lt;a href=&#34;https://github.com/rodjek/puppet-lint&#34; target=&#34;_blank&#34;&gt;puppet-lint&lt;/a&gt; to validate the Puppet syntax in all open puppet files. Errors and warnings appear in the Problems window in VSCode.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Puppet Bolt</title>
+      <link>https://puppet-vscode.github.io/docs/features/puppet-bolt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/puppet-bolt/</guid>
+      <description>
+        
+        
+        
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
+This is an experimental feature
+&lt;/div&gt;
+
+
+&lt;p&gt;Support for Puppet Bolt was added in version 0.17.0 of the Puppet VS Code Extension. Fully supporting an end to end Puppet Bolt editing experience is a multi-step process, so this is experimental for now.&lt;/p&gt;
+
+&lt;p&gt;The first step in this is enabling parsing Bolt Plans. This means when opening a Puppet module with Puppet Bolt plans or a folder with a Puppet Bolt plan file the Puppet VSCode Extension will no longer log an error in the Problems Pane for failing to parse Puppet Bolt Plan keywords. You will get symbol support (OutlineView and Breadcrumbs) as well as syntax highlighting. Subsequent releases will focus on adding intellisense, autocompletion, hover support and other advanced editor features. This work is tracked in the &lt;a href=&#34;https://github.com/orgs/lingua-pupuli/projects/20&#34; target=&#34;_blank&#34;&gt;Puppet Bolt Support Github project&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-bolt-commands-and-snippets&#34;&gt;Puppet Bolt Commands and Snippets&lt;/h4&gt;
+
+&lt;p&gt;We have added support for VSCode Command Palette commands for opening Bolt user config and inventory YAML files. We have also added support for YAML snippets for common operations in Bolt YAML files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/bolt_config_command.gif&#34; alt=&#34;bolt_command_palette&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/bolt_inventory_command.gif&#34; alt=&#34;bolt_command_palette&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Puppet Commands</title>
+      <link>https://puppet-vscode.github.io/docs/features/puppet-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/puppet-commands/</guid>
+      <description>
+        
+        
+        
+
+&lt;h2 id=&#34;puppet-resource&#34;&gt;Puppet Resource&lt;/h2&gt;
+
+&lt;p&gt;You can import existing resources directly using &lt;code&gt;puppet resource&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the command palette (&lt;code&gt;Ctrl+Shift+P&lt;/code&gt;) or right click on a puppet file and select the menu entry&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Type &lt;code&gt;puppet resource&lt;/code&gt; and press enter&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the resource type you want to import, for example &lt;code&gt;user&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The information returned will be pasted into the open editor window where your cursor is resting, or at the begining of an empty file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppet_resource.gif&#34; alt=&#34;puppet_resource&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change the notification message from the default message box, to a status bar notification or none at all, using the &lt;code&gt;puppet.notification.puppetResource&lt;/code&gt; configuration setting.&lt;/p&gt;
+
+&lt;h2 id=&#34;puppet-node-graph-preview&#34;&gt;Puppet Node Graph preview&lt;/h2&gt;
+
+&lt;p&gt;You can preview the &lt;a href=&#34;https://puppet.com/blog/visualize-your-infrastructure-models&#34; target=&#34;_blank&#34;&gt;node graph&lt;/a&gt; of a manifest while you edit your Puppet Code.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the command palette (&lt;code&gt;Ctrl+Shift+P&lt;/code&gt;) or right click on a puppet file and select the menu entry&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Type &lt;code&gt;puppet open node&lt;/code&gt;.. and press enter&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The node graph will appear next to the manifest&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppet_node_graph.gif&#34; alt=&#34;puppet_node_graph&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change the notification message from the default message box, to a status bar notification or none at all, using the &lt;code&gt;puppet.notification.nodeGraph&lt;/code&gt; configuration setting.&lt;/p&gt;
+
+&lt;p&gt;TODO - explain the include problem&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Puppet Development Kit</title>
+      <link>https://puppet-vscode.github.io/docs/features/puppet-development-kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/puppet-development-kit/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;You can use the &lt;a href=&#34;https://puppet.com/blog/develop-modules-faster-new-puppet-development-kit&#34; target=&#34;_blank&#34;&gt;Puppet Development Kit&lt;/a&gt; inside VS Code from the command palette. To use any of the above commands, open the command palette and start typing a command. You can also use the right-click context menu or the editor menu to reach these commands.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: The PDK must be installed prior to using these commands&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;h3 id=&#34;unsupported-commands&#34;&gt;Unsupported commands&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;pdk convert&lt;/code&gt; is not available in the command palette as it is a complicated command that requires user input to succeed. It is better to use it from the builtin terminal.&lt;/p&gt;
+
+&lt;h3 id=&#34;pdk-supported-versions&#34;&gt;PDK Supported Versions&lt;/h3&gt;
+
+&lt;p&gt;The Puppet VSCode Extension supports the current PDK version, and one older version.&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-new-module&#34;&gt;PDK new module&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;PDK New Module&lt;/code&gt; is available even if the extension isn&amp;rsquo;t loaded, the rest of the commands are only available when the extension is loaded.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_module.gif&#34; alt=&#34;pdk_new_module&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-new-class&#34;&gt;PDK new class&lt;/h2&gt;
+
+&lt;p&gt;You can create new classes using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_class.gif&#34; alt=&#34;pdk_new_class&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-validate&#34;&gt;PDK validate&lt;/h2&gt;
+
+&lt;p&gt;You can initiate a valiadtion of your module using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_validate.gif&#34; alt=&#34;pdk_validate&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-test-unit&#34;&gt;PDK test unit&lt;/h2&gt;
+
+&lt;p&gt;You can run the test suite of your module using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_test_unit.gif&#34; alt=&#34;pdk_test_unit&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Remote Development</title>
+      <link>https://puppet-vscode.github.io/docs/features/remote-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/remote-development/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Coming Soon&lt;/h4&gt;
+&lt;p&gt;Containers, WSL and Docker&lt;/p&gt;
+
+&lt;p&gt;Under active development!!&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

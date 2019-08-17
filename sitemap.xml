@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/getting-started/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/code-navigation/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/control-repository/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/debugging-puppet-code/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/extension-settings/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/intellisense/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/linting/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/puppet-bolt/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/puppet-commands/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/puppet-development-kit/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/remote-development/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/experience-a-problem/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/releases/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/telemetry/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/features/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/docs/project-maintainers/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2019/07/19/release-0.19.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2019/06/07/release-0.18.1/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2019/03/29/release-0.18.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2019/02/14/release-0.17.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2019/01/25/release-0.16.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2019/01/09/release-0.15.1/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/12/21/release-0.15.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/12/03/release-0.14.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/10/31/release-0.13.2/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/10/30/release-0.13.1/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/10/23/release-0.13.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/08/24/release-0.12.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/07/16/release-0.11.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/03/29/release-0.10.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2018/02/01/release-0.9.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/11/24/release-0.8.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/11/01/release-0.7.2/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/09/29/release-0.7.1/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/09/22/release-0.7.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/08/08/release-0.5.3/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/08/08/release-0.6.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/06/29/release-0.4.6/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.0/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.2/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.5/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/05/08/release-0.0.3/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/05/04/release-0.0.2/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/2017/04/10/release-0.0.1/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/community/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/blog/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://puppet-vscode.github.io/search/</loc>
+    <lastmod>2019-08-15T15:08:28+08:00</lastmod>
+  </url>
+  
+</urlset>

@@ -1,0 +1,840 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppet VSCode Extension – New Releases</title>
+    <link>https://puppet-vscode.github.io/blog/releases/</link>
+    <description>Recent content in New Releases on Puppet VSCode Extension</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://puppet-vscode.github.io/blog/releases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: Release 0.19.0</title>
+      <link>https://puppet-vscode.github.io/blog/2019/07/19/release-0.19.0/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/07/19/release-0.19.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/530&#34; target=&#34;_blank&#34;&gt;GH-530&lt;/a&gt;) Enable extension with Puppet workspace files&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/141&#34; target=&#34;_blank&#34;&gt;GH-141&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.20.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.20.0&lt;/a&gt; Load all Puppet 4 API Features&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/137&#34; target=&#34;_blank&#34;&gt;GH-137&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.20.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.20.0&lt;/a&gt; Load Puppet 4 Custom Types, Defined Types and Classes&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/121&#34; target=&#34;_blank&#34;&gt;GH-121&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.20.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.20.0&lt;/a&gt; Load Puppet 4 Functions and Puppet 3 Functions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/128&#34; target=&#34;_blank&#34;&gt;GH-128&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/commit/5f1751086abc3c12016b47d1fdba974afda60671&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.20.0&lt;/a&gt; Detect Puppet Plan files correctly&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/147&#34; target=&#34;_blank&#34;&gt;GH-147&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/commit/b0405552e892152b9cb56198c9c090960044459e&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.20.0&lt;/a&gt; Gracefully fail on LoadError when compiling manifests&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.18.1</title>
+      <link>https://puppet-vscode.github.io/blog/2019/06/07/release-0.18.1/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/06/07/release-0.18.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/505&#34; target=&#34;_blank&#34;&gt;GH-505&lt;/a&gt;) Add hide &lt;code&gt;PDK New Module&lt;/code&gt; titlebar button&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/507&#34; target=&#34;_blank&#34;&gt;GH-507&lt;/a&gt;)(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/508&#34; target=&#34;_blank&#34;&gt;GH-508&lt;/a&gt;) Document Puppet Version Support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/502&#34; target=&#34;_blank&#34;&gt;GH-502&lt;/a&gt;) Switch default PuppetInstallType to PDK rather than the agent&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/502&#34; target=&#34;_blank&#34;&gt;GH-502&lt;/a&gt;) Automatically determine PuppetInstallType&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/499&#34; target=&#34;_blank&#34;&gt;GH-499&lt;/a&gt;) Add setting to allow disabling editor services&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/436&#34; target=&#34;_blank&#34;&gt;GH-436&lt;/a&gt;) Fix extension &amp;ldquo;crash&amp;rdquo; after editing line of code&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/132&#34; target=&#34;_blank&#34;&gt;GH-132&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/commit/08a2fdaeee59fb9339515122e15fb855e32d6500&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.19.1&lt;/a&gt; Suppress $stdout usage for STDIO transport&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/118&#34; target=&#34;_blank&#34;&gt;GH-118&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/commit/08a2fdaeee59fb9339515122e15fb855e32d6500&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.19.1&lt;/a&gt; Fail gracefully when critical gems cannot load&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/39&#34; target=&#34;_blank&#34;&gt;GH-39&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/466a37c9fd1241cd679382073087571ac3d96b51&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.2&lt;/a&gt; Node definitions can only be strings&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/38&#34; target=&#34;_blank&#34;&gt;GH-38&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/466a37c9fd1241cd679382073087571ac3d96b51&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.2&lt;/a&gt; Fix highlighting of classes and functions&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/37&#34; target=&#34;_blank&#34;&gt;GH-37&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/466a37c9fd1241cd679382073087571ac3d96b51&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.2&lt;/a&gt; Tokenise variables within arrays&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/32&#34; target=&#34;_blank&#34;&gt;GH-32&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/466a37c9fd1241cd679382073087571ac3d96b51&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.2&lt;/a&gt; Highlight resource names and titles correctly&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/30&#34; target=&#34;_blank&#34;&gt;GH-30&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/466a37c9fd1241cd679382073087571ac3d96b51&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.2&lt;/a&gt; Highlight regex capture variables&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.18.0</title>
+      <link>https://puppet-vscode.github.io/blog/2019/03/29/release-0.18.0/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/03/29/release-0.18.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/494&#34; target=&#34;_blank&#34;&gt;GH-494&lt;/a&gt;) Add Progress Bar for long lived operations&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/489&#34; target=&#34;_blank&#34;&gt;GH-489&lt;/a&gt;) Allow users to change puppet version used by editor services in PDK&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/commit/8b2815ad06f7b3f82574c44684387007c5213f5d&#34; target=&#34;_blank&#34;&gt;Commit&lt;/a&gt;) Update puppet-editor-syntax to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/releases/tag/1.3.1&#34; target=&#34;_blank&#34;&gt;1.3.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/489&#34; target=&#34;_blank&#34;&gt;GH-489&lt;/a&gt;) Update puppet-editor-services to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/blob/master/CHANGELOG.md#0190---2019-03-24&#34; target=&#34;_blank&#34;&gt;0.19.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.17.0</title>
+      <link>https://puppet-vscode.github.io/blog/2019/02/14/release-0.17.0/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/02/14/release-0.17.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/476&#34; target=&#34;_blank&#34;&gt;GH-476&lt;/a&gt;) Add Bolt commands&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/477&#34; target=&#34;_blank&#34;&gt;GH-477&lt;/a&gt;) Add Bolt yaml snippets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/480&#34; target=&#34;_blank&#34;&gt;GH-480&lt;/a&gt;) Automatically find Ruby version from PDK&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/478&#34; target=&#34;_blank&#34;&gt;GH-478&lt;/a&gt;) Update puppet-editor-services to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/blob/master/CHANGELOG.md#0180---2019-02-05&#34; target=&#34;_blank&#34;&gt;0.18.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.16.0</title>
+      <link>https://puppet-vscode.github.io/blog/2019/01/25/release-0.16.0/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/01/25/release-0.16.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/375&#34; target=&#34;_blank&#34;&gt;GH-375&lt;/a&gt;) Support starting Language Server in Docker container&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/295&#34; target=&#34;_blank&#34;&gt;GH-295&lt;/a&gt;) Add Puppetfile as a contributing langauge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/459&#34; target=&#34;_blank&#34;&gt;GH-459&lt;/a&gt;) Update extension for new Debugging API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/453&#34; target=&#34;_blank&#34;&gt;GH-453&lt;/a&gt;) Language Server will not start&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.15.1</title>
+      <link>https://puppet-vscode.github.io/blog/2019/01/09/release-0.15.1/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/01/09/release-0.15.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/454&#34; target=&#34;_blank&#34;&gt;GH-454&lt;/a&gt;) Fix Ruby path for PDK 1.8.0&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.15.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/12/21/release-0.15.0/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/12/21/release-0.15.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/440&#34; target=&#34;_blank&#34;&gt;GH-440&lt;/a&gt;) Add a setting for additional modulepath&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/335&#34; target=&#34;_blank&#34;&gt;GH-335&lt;/a&gt;) Add a setting to disable the language server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/447&#34; target=&#34;_blank&#34;&gt;GH-447&lt;/a&gt;) Update puppet-editor-services to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/blob/master/CHANGELOG.md#0170---2018-12-14&#34; target=&#34;_blank&#34;&gt;0.17.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/412&#34; target=&#34;_blank&#34;&gt;GH-412&lt;/a&gt;) Refactored the Language Server Connection Handler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed&#34;&gt;Removed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/446&#34; target=&#34;_blank&#34;&gt;GH-446&lt;/a&gt;) Remove deprecated &amp;ndash;enable-file-cache option for Editor Services&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/439&#34; target=&#34;_blank&#34;&gt;GH-439&lt;/a&gt;) Remove RestartSession Command&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.14.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/12/03/release-0.14.0/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/12/03/release-0.14.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/431&#34; target=&#34;_blank&#34;&gt;GH-431&lt;/a&gt;) Update Editor Syntax to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/blob/master/CHANGELOG.md#130---2018-11-29&#34; target=&#34;_blank&#34;&gt;1.3.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/427&#34; target=&#34;_blank&#34;&gt;GH-427&lt;/a&gt;) Update Editor Syntax to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/blob/master/CHANGELOG.md#120---2018-11-27&#34; target=&#34;_blank&#34;&gt;1.2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/434&#34; target=&#34;_blank&#34;&gt;GH-434&lt;/a&gt;) Update puppet-editor-services to &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/blob/master/CHANGELOG.md#0160---2018-11-30&#34; target=&#34;_blank&#34;&gt;0.16.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/422&#34; target=&#34;_blank&#34;&gt;GH-422&lt;/a&gt;) Upgrade to VS Code&amp;rsquo;s webview API&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.13.2</title>
+      <link>https://puppet-vscode.github.io/blog/2018/10/31/release-0.13.2/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/10/31/release-0.13.2/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/419&#34; target=&#34;_blank&#34;&gt;GH-419&lt;/a&gt;) Update puppet-editor-services to 0.15.1 release&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.13.1</title>
+      <link>https://puppet-vscode.github.io/blog/2018/10/30/release-0.13.1/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/10/30/release-0.13.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/416&#34; target=&#34;_blank&#34;&gt;GH-416&lt;/a&gt;) Update syntax file with 0.1.0 puppet-editor-syntax 0.1.0 release&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/331&#34; target=&#34;_blank&#34;&gt;GH-331&lt;/a&gt;) Go to definition not working&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.13.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/10/23/release-0.13.0/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/10/23/release-0.13.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/366&#34; target=&#34;_blank&#34;&gt;GH-366&lt;/a&gt;) New Debug Adapter&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/354&#34; target=&#34;_blank&#34;&gt;GH-354&lt;/a&gt;) Document PDK as source information&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/385&#34; target=&#34;_blank&#34;&gt;GH-385&lt;/a&gt;) New Outline View, Breadcrumb, and Go to Symbol Features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/397&#34; target=&#34;_blank&#34;&gt;GH-397&lt;/a&gt;) Updated Puppet Editor Services to version 0.15.0.  Change Log is at &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.15.0&#34; target=&#34;_blank&#34;&gt;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.15.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/373&#34; target=&#34;_blank&#34;&gt;GH-373&lt;/a&gt;) Refactor commands and providers to features&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/351&#34; target=&#34;_blank&#34;&gt;GH-351&lt;/a&gt;) Updated Puppet Editor Services to version 0.14.0.  Change Log is at &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.15.0&#34; target=&#34;_blank&#34;&gt;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.14.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/323&#34; target=&#34;_blank&#34;&gt;GH-323&lt;/a&gt;) Update readme with gif examples&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/399&#34; target=&#34;_blank&#34;&gt;GH-399&lt;/a&gt;) Update Puppet loading UI to be more user friendly&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/405&#34; target=&#34;_blank&#34;&gt;GH-405&lt;/a&gt;) Update readme with correct links into the readme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;deprecated&#34;&gt;Deprecated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/315&#34; target=&#34;_blank&#34;&gt;GH-315&lt;/a&gt;) Deprecate puppetAgentDir setting&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.12.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/08/24/release-0.12.0/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/08/24/release-0.12.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/315&#34; target=&#34;_blank&#34;&gt;GH-315&lt;/a&gt;) Add PDK as source in addition to Puppet-Agent&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/355&#34; target=&#34;_blank&#34;&gt;GH-355&lt;/a&gt;) Re-add base telemetry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/327&#34; target=&#34;_blank&#34;&gt;GH-327&lt;/a&gt;) Updated Puppet Editor Services to version 0.13.0.  Change Log is at &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.13.0&#34; target=&#34;_blank&#34;&gt;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.13.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/316&#34; target=&#34;_blank&#34;&gt;GH-316&lt;/a&gt;) Conform to Keep-A-Changelog format in CHANGELOG&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/320&#34; target=&#34;_blank&#34;&gt;GH-320&lt;/a&gt;) Fix &lt;code&gt;if/else&lt;/code&gt; snippet.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/343&#34; target=&#34;_blank&#34;&gt;GH-343&lt;/a&gt;) Fix process environment builder for LanguageServer&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/317&#34; target=&#34;_blank&#34;&gt;GH-317&lt;/a&gt;) Fix extension test harness and add Windows, Linux, and Mac tests&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.11.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/07/16/release-0.11.0/</link>
+      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/07/16/release-0.11.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/284&#34; target=&#34;_blank&#34;&gt;GH-284&lt;/a&gt;) Add support for region folding.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/238&#34; target=&#34;_blank&#34;&gt;GH-238&lt;/a&gt;) Add stdio support to client extension.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/240&#34; target=&#34;_blank&#34;&gt;GH-240&lt;/a&gt;) Add TCP retry functionality.&lt;/li&gt;
+&lt;li&gt;(maint) Automatically download languageserver on build and watch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Update Puppet Editor Services to &lt;code&gt;0.12.0&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/258&#34; target=&#34;_blank&#34;&gt;GH-258&lt;/a&gt;) Changed the vendoring process for editor services due to org move.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/275&#34; target=&#34;_blank&#34;&gt;GH-275&lt;/a&gt;) Update the Marketplace categories.&lt;/li&gt;
+&lt;li&gt;(maint) Improve issue templates.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/252&#34; target=&#34;_blank&#34;&gt;GH-252&lt;/a&gt;) Update the README for org move.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/289&#34; target=&#34;_blank&#34;&gt;GH-289&lt;/a&gt;) Fix Autoindenting for DSL.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/301&#34; target=&#34;_blank&#34;&gt;GH-301&lt;/a&gt;) Fail fast if Puppet Agent is not installed.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/310&#34; target=&#34;_blank&#34;&gt;GH-310&lt;/a&gt;) Fix gulp bump.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/307&#34; target=&#34;_blank&#34;&gt;GH-307&lt;/a&gt;) Fix Path resolution on mac and *nix.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/241&#34; target=&#34;_blank&#34;&gt;GH-241&lt;/a&gt;) Ensure specified tcp port is honored.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/296&#34; target=&#34;_blank&#34;&gt;GH-296&lt;/a&gt;) Ensure document file scheme is set.&lt;/li&gt;
+&lt;li&gt;(maint) Fix tslint errors.&lt;/li&gt;
+&lt;li&gt;(maint) Update GitHub links for org change.&lt;/li&gt;
+&lt;li&gt;(maint) Update Puppet grammar file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed&#34;&gt;Removed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/274&#34; target=&#34;_blank&#34;&gt;GH-274&lt;/a&gt;) Remove random tcp port resolution from client.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.10.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/03/29/release-0.10.0/</link>
+      <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/03/29/release-0.10.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/236&#34; target=&#34;_blank&#34;&gt;GH-236&lt;/a&gt;) Add experimental file cache option.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/225&#34; target=&#34;_blank&#34;&gt;GH-225&lt;/a&gt;) Add ability to read local workspace comand line option.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/218&#34; target=&#34;_blank&#34;&gt;GH-218&lt;/a&gt;) Add support for validating EPP files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/244&#34; target=&#34;_blank&#34;&gt;GH-244&lt;/a&gt;) Update puppet-lint to &lt;code&gt;2.3.5&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/216&#34; target=&#34;_blank&#34;&gt;GH-216&lt;/a&gt;) Improved syntax highlighting.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/214&#34; target=&#34;_blank&#34;&gt;GH-214&lt;/a&gt;) Updated README for PDK &lt;code&gt;1.3.X&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/231&#34; target=&#34;_blank&#34;&gt;GH-231&lt;/a&gt;) Make document validation asynchronous.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;removed&#34;&gt;Removed&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/236&#34; target=&#34;_blank&#34;&gt;GH-236&lt;/a&gt;) Remove the preload option.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.9.0</title>
+      <link>https://puppet-vscode.github.io/blog/2018/02/01/release-0.9.0/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2018/02/01/release-0.9.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/50&#34; target=&#34;_blank&#34;&gt;GH-50&lt;/a&gt;) Add document formatter for puppet-lint.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/204&#34; target=&#34;_blank&#34;&gt;GH-204&lt;/a&gt;) Fix debug server for Puppet &lt;code&gt;4.x&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.8.0</title>
+      <link>https://puppet-vscode.github.io/blog/2017/11/24/release-0.8.0/</link>
+      <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/11/24/release-0.8.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/100&#34; target=&#34;_blank&#34;&gt;GH-100&lt;/a&gt;) Added xperimental Puppet-Debugger.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/187&#34; target=&#34;_blank&#34;&gt;GH-187&lt;/a&gt;) Add stdio mode to language server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/180&#34; target=&#34;_blank&#34;&gt;GH-180&lt;/a&gt;) Ensure Backslashes in File Path display in Node Graph.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/pull/194&#34; target=&#34;_blank&#34;&gt;PR-194&lt;/a&gt;) Fix logger in PDK New Task&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/pull/195&#34; target=&#34;_blank&#34;&gt;PR-195&lt;/a&gt;) Do not error in validation exception handler.&lt;/li&gt;
+&lt;li&gt;(maint) Fix rubocop violations.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.7.2</title>
+      <link>https://puppet-vscode.github.io/blog/2017/11/01/release-0.7.2/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/11/01/release-0.7.2/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/167&#34; target=&#34;_blank&#34;&gt;GH-167&lt;/a&gt;) Add PDK New Task command.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/156&#34; target=&#34;_blank&#34;&gt;GH-156&lt;/a&gt;) Document restarting Puppet extension command.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/88&#34; target=&#34;_blank&#34;&gt;GH-88&lt;/a&gt;) Rework Node Graph Preview to use local svg instead of calling out to the internet.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/154&#34; target=&#34;_blank&#34;&gt;GH-154&lt;/a&gt;) Use hosted JSON schema files instead of vendoring them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/165&#34; target=&#34;_blank&#34;&gt;GH-165&lt;/a&gt;) Fixed Broken README link.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/169&#34; target=&#34;_blank&#34;&gt;GH-169&lt;/a&gt;) Fix bug in sytanx highlighting.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/177&#34; target=&#34;_blank&#34;&gt;GH-177&lt;/a&gt;) Remove detection of Puppet VERSION file which was causing erroneous failures.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/175&#34; target=&#34;_blank&#34;&gt;GH-175&lt;/a&gt;) Fix &amp;lsquo;could not find valid version of Puppet&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.7.1</title>
+      <link>https://puppet-vscode.github.io/blog/2017/09/29/release-0.7.1/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/09/29/release-0.7.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/157&#34; target=&#34;_blank&#34;&gt;GH-157&lt;/a&gt;) Unhide &lt;code&gt;Puppet Resource&lt;/code&gt; command in the Command Palette.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.7.0</title>
+      <link>https://puppet-vscode.github.io/blog/2017/09/22/release-0.7.0/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/09/22/release-0.7.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/115&#34; target=&#34;_blank&#34;&gt;GH-115&lt;/a&gt;) Add Puppet Development Kit (PDK) integration.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/136&#34; target=&#34;_blank&#34;&gt;GH-136&lt;/a&gt;) Create a better UI experience while Puppet loads.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/61&#34; target=&#34;_blank&#34;&gt;GH-61&lt;/a&gt;)  Create a better experience when language client fails.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/122&#34; target=&#34;_blank&#34;&gt;GH-122&lt;/a&gt;) Show upgrade message with changelog.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/120&#34; target=&#34;_blank&#34;&gt;GH-120&lt;/a&gt;) Allow custom Puppet agent installation directory.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/111&#34; target=&#34;_blank&#34;&gt;GH-111&lt;/a&gt;) Parse &lt;code&gt;puppet-lint.rc&lt;/code&gt; in module directory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/109&#34; target=&#34;_blank&#34;&gt;GH-109&lt;/a&gt;) Randomize languageserver port.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/135&#34; target=&#34;_blank&#34;&gt;GH-135&lt;/a&gt;) Fix incorrect logger when a client error occurs.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/129&#34; target=&#34;_blank&#34;&gt;GH-129&lt;/a&gt;) Honor inline puppet lint directives.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/133&#34; target=&#34;_blank&#34;&gt;GH-133&lt;/a&gt;) Fix issue with puppet 5.1.0.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/126&#34; target=&#34;_blank&#34;&gt;GH-126&lt;/a&gt;) Fix completion provider with Puppet 5.2.0.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.5.3</title>
+      <link>https://puppet-vscode.github.io/blog/2017/08/08/release-0.5.3/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/08/08/release-0.5.3/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/92&#34; target=&#34;_blank&#34;&gt;GH-92&lt;/a&gt;) Added context menus for Puppet Resource and Nodegraph preview.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/52&#34; target=&#34;_blank&#34;&gt;GH-52&lt;/a&gt;) Added JSON validation and schema for &lt;code&gt;metadata.json&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/103&#34; target=&#34;_blank&#34;&gt;GH-103&lt;/a&gt;) Added support puppet-lint rc files.&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/89&#34; target=&#34;_blank&#34;&gt;GH-89&lt;/a&gt;) Documented support for Linux in README.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/99&#34; target=&#34;_blank&#34;&gt;GH-99&lt;/a&gt;) Improved client README and Gallery page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/98&#34; target=&#34;_blank&#34;&gt;GH-98&lt;/a&gt;) Fix language server function and type loading.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.6.0</title>
+      <link>https://puppet-vscode.github.io/blog/2017/08/08/release-0.6.0/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/08/08/release-0.6.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix packaging error where language server was not included.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.4.6</title>
+      <link>https://puppet-vscode.github.io/blog/2017/06/29/release-0.4.6/</link>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/06/29/release-0.4.6/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated links in README.&lt;/li&gt;
+&lt;li&gt;Added more information to package manifest.&lt;/li&gt;
+&lt;li&gt;Minor updates to README.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.4.0</title>
+      <link>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.0/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added a functional Language Server for the Puppet language with:
+
+&lt;ul&gt;
+&lt;li&gt;Real time &lt;code&gt;puppet lint&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Auto-complete and Hover support for many puppet language facets&lt;/li&gt;
+&lt;li&gt;Auto-complete and Hover support for facts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;puppet resource&lt;/code&gt; support&lt;/li&gt;
+&lt;li&gt;Preview node graph support&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Extension can load a local Language Server if Puppet Agent is present on Windows, Mac and Linux.&lt;/li&gt;
+&lt;li&gt;Implemented textDocument/didClose notification.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ensure Completion and Hover provider loads puppet modules.&lt;/li&gt;
+&lt;li&gt;Fixed completion at file beginning on new lines and on keywords.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.4.2</title>
+      <link>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.2/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.2/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated badge links to use proper extension id.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.4.5</title>
+      <link>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.5/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/06/27/release-0.4.5/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated badge link location in README.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.0.3</title>
+      <link>https://puppet-vscode.github.io/blog/2017/05/08/release-0.0.3/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/05/08/release-0.0.3/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added the Puppet Parser validate linter.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.0.2</title>
+      <link>https://puppet-vscode.github.io/blog/2017/05/04/release-0.0.2/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/05/04/release-0.0.2/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added the Puppet Resource and Puppet Module commands.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.0.1</title>
+      <link>https://puppet-vscode.github.io/blog/2017/04/10/release-0.0.1/</link>
+      <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2017/04/10/release-0.0.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Initial release of the puppet extension.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

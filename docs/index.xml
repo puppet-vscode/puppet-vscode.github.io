@@ -1,0 +1,803 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppet VSCode Extension – Documentation</title>
+    <link>https://puppet-vscode.github.io/docs/</link>
+    <description>Recent content in Documentation on Puppet VSCode Extension</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://puppet-vscode.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Getting Started</title>
+      <link>https://puppet-vscode.github.io/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/getting-started/</guid>
+      <description>
+        
+        
+        
+
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Step 1: Install a supported version of the Puppet Development Kit on your system (see &lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt; for more information).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Step 2: &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery#_install-an-extension&#34; target=&#34;_blank&#34;&gt;Install&lt;/a&gt; the Puppet &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=jpogran.puppet-vscode&#34; target=&#34;_blank&#34;&gt;extension&lt;/a&gt; for Visual Studio Code.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Step 3: Open, or create, a Puppet manifest file (a file with a &lt;code&gt;.pp&lt;/code&gt; or &lt;code&gt;.epp&lt;/code&gt; extension) or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/puppetfile.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;Puppetfile&lt;/code&gt;&lt;/a&gt; and start automating!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;p&gt;You will need to have the &lt;a href=&#34;https://puppet.com/docs/puppet/4.10/about_agent.html&#34; target=&#34;_blank&#34;&gt;Puppet Agent&lt;/a&gt; or &lt;a href=&#34;https://puppet.com/docs/pdk/1.x/pdk.html&#34; target=&#34;_blank&#34;&gt;Puppet Development Kit (PDK)&lt;/a&gt; installed in order to fully use this extension.&lt;/p&gt;
+
+&lt;p&gt;You can find instructions and installation links here:&lt;/p&gt;
+
+&lt;h3 id=&#34;pdk&#34;&gt;PDK&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: PDK version 1.5.0 or higher is required.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://puppet.com/download-puppet-development-kit&#34; target=&#34;_blank&#34;&gt;Download page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;puppet-agent&#34;&gt;Puppet-Agent&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Puppet Agent 5.5 and above is preferred.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.puppet.com/puppet/latest/install_windows.html&#34; target=&#34;_blank&#34;&gt;Windows&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.puppet.com/puppet/latest/install_osx.html&#34; target=&#34;_blank&#34;&gt;MacOSX&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.puppet.com/puppet/latest/install_linux.html&#34; target=&#34;_blank&#34;&gt;Linux&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;platform-support&#34;&gt;Platform support&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft Windows&lt;/li&gt;
+&lt;li&gt;MacOSX&lt;/li&gt;
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;The VS Code Marketplace has many extensions, including the Puppet Extension. To quickly install the Puppet Extension, click on the &lt;code&gt;Install&lt;/code&gt; button at the top of this page.&lt;/p&gt;
+
+&lt;p&gt;You can install the official release of the Puppet extension by following the steps in the &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery&#34; target=&#34;_blank&#34;&gt;Visual Studio Code documentation&lt;/a&gt;. In the Extensions pane, search for &lt;code&gt;puppet-vscode&lt;/code&gt; extension and install it there. You will get notified automatically about any future extension updates!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/extension_install.gif&#34; alt=&#34;extension_install&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also install the extension without access to the internet by following these &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix&#34; target=&#34;_blank&#34;&gt;instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;While the default configuration for the Puppet Extension will get you up and running quickly, you may want to tailor the configuration to your own liking. All of the available settings are detailed in the &lt;a href=&#34;../extension-settings&#34;&gt;Extension Settings&lt;/a&gt; documentation.
+Now that you&amp;rsquo;ve installed the extension you may want configure&lt;/p&gt;
+
+&lt;h3 id=&#34;automatic-configuration&#34;&gt;Automatic configuration&lt;/h3&gt;
+
+&lt;p&gt;By default the extension attempts to automatically find a valid installation of the PDK on your system. If a PDK installation is not found, it attempts to find a Puppet Agent installation. The locations it looks for are the default install locations for each product. Exact default values for these locations can be found in &lt;a href=&#34;../extension-settings&#34;&gt;Extension Settings&lt;/a&gt; documentation.&lt;/p&gt;
+
+&lt;h4 id=&#34;configure-extension-to-use-pdk&#34;&gt;Configure extension to use PDK&lt;/h4&gt;
+
+&lt;p&gt;To ensure that the extension uses the &lt;code&gt;PDK&lt;/code&gt;, set the &lt;code&gt;puppet.installType&lt;/code&gt; setting to the &lt;code&gt;pdk&lt;/code&gt; value like so:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installType&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;pdk&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The default installation paths stored in the extension are:&lt;/p&gt;
+
+&lt;p&gt;Windows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:\\Program Files\\Puppet Labs\\DevelopmentKit&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;OSX:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/opt/puppetlabs/pdk&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/opt/puppetlabs/pdk&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To use a custom install path for the &lt;code&gt;PDK&lt;/code&gt;, set the &lt;code&gt;puppet.installDirectory&lt;/code&gt; setting to the path you installed the &lt;code&gt;PDK&lt;/code&gt; to:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;D:/programs/pdk&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4 id=&#34;configure-puppet-version-in-pdk&#34;&gt;Configure Puppet Version in PDK&lt;/h4&gt;
+
+&lt;p&gt;The &lt;code&gt;PDK&lt;/code&gt; has many versions of Puppet which can be used. Set the &lt;code&gt;puppet.editorService.puppet.version&lt;/code&gt; setting to the version you would like to use, for example, if you wanted to use version 5.4.0, then set the configuration to:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.editorService.puppet.version&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;5.4.0&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can also change the version from the status bar in Visual Studio Code.  Click on the Puppet version text in the status bar and then select which Puppet version you would like to use. Note that this will require Visual Studio Code to be restarted to take effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/change-puppet-version.gif&#34; alt=&#34;changing_puppet_version&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;configure-extension-to-use-puppet-agent&#34;&gt;Configure extension to use Puppet-Agent&lt;/h4&gt;
+
+&lt;p&gt;To ensure that the extension uses the Puppet-Agent, set the &lt;code&gt;puppet.installType&lt;/code&gt; setting to the &lt;code&gt;puppet&lt;/code&gt; value like so:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installType&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;puppet&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The default installation paths stored in the extension are:&lt;/p&gt;
+
+&lt;p&gt;Windows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:\\Program Files\\Puppet Labs\\Puppet&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;,&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;OSX&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/opt/puppetlabs&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Linux:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;/opt/puppetlabs&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To use a custom install path for the Puppet-Agent, set the &lt;code&gt;puppet.installDirectory&lt;/code&gt; setting to the path you installed the Puppet-Agent to:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#204a87;font-weight:bold&#34;&gt;&amp;#34;puppet.installDirectory&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;D:/programs/puppet&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;loading-indicator&#34;&gt;Loading indicator&lt;/h3&gt;
+
+&lt;p&gt;The Puppet extension includes additional information in the form of a tooltip which describes the features that are loaded and still loading during startup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/loading_status.gif&#34; alt=&#34;loading_status&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Code Navigation</title>
+      <link>https://puppet-vscode.github.io/docs/features/code-navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/code-navigation/</guid>
+      <description>
+        
+        
+        
+
+&lt;h2 id=&#34;outline-view&#34;&gt;Outline View&lt;/h2&gt;
+
+&lt;p&gt;The new &lt;code&gt;Outline View&lt;/code&gt; shows the symbol tree of the currently selected Puppet manifest.&lt;/p&gt;
+
+&lt;p&gt;Supported symbols:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Class&lt;/li&gt;
+&lt;li&gt;Defined Type&lt;/li&gt;
+&lt;li&gt;Attribute&lt;/li&gt;
+&lt;li&gt;Variable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More symbols are planned to be added.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Outline View is not support on Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/outline_view.gif&#34; alt=&#34;outline_view&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;breadcrumbs&#34;&gt;Breadcrumbs&lt;/h2&gt;
+
+&lt;p&gt;When the &lt;code&gt;breadcrumbs.enabled&lt;/code&gt; setting is set to true, both the file path and the symbol tree hierarchy are shown in the Breadcrumb view.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Breadcrumbs are not support on Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/breadcrumbs.gif&#34; alt=&#34;breadcrumbs&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;go-to-symbol&#34;&gt;Go to Symbol&lt;/h2&gt;
+
+&lt;p&gt;Opening the &lt;code&gt;Command Palette&lt;/code&gt; and typing the &lt;code&gt;@&lt;/code&gt; symbol initiates the &lt;code&gt;Go to Symbol&lt;/code&gt; view which allows you to navigate around inside a Puppet manifest more quickly.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Go to Symbol is not support on Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/go_to_symbol.gif&#34; alt=&#34;go_to_symbol&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;open-symbol-by-name&#34;&gt;Open Symbol by Name&lt;/h2&gt;
+
+&lt;p&gt;Pressing &lt;code&gt;Ctrl+T&lt;/code&gt; (or ⌘T on OSX) will list all &lt;a href=&#34;https://puppet.com/docs/puppet/latest/custom_types.html&#34; target=&#34;_blank&#34;&gt;Puppet Custom Types&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html&#34; target=&#34;_blank&#34;&gt;Functions&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_classes.html&#34; target=&#34;_blank&#34;&gt;Classes&lt;/a&gt; and &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_defined_types.html&#34; target=&#34;_blank&#34;&gt;Defined Types&lt;/a&gt; in the workspace. You can then &lt;a href=&#34;https://code.visualstudio.com/docs/editor/editingevolved#_open-symbol-by-name&#34; target=&#34;_blank&#34;&gt;navigate to the symbol&lt;/a&gt; by pressing &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Open Symbol by Name has limited support using Puppet 4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Control Repositories</title>
+      <link>https://puppet-vscode.github.io/docs/features/control-repository/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/control-repository/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Coming Soon&lt;/h4&gt;
+&lt;p&gt;Control Repositories&lt;/p&gt;
+
+&lt;p&gt;Under active development!!&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Debugging Puppet Code</title>
+      <link>https://puppet-vscode.github.io/docs/features/debugging-puppet-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/debugging-puppet-code/</guid>
+      <description>
+        
+        
+        
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
+This is an experimental feature
+&lt;/div&gt;
+
+
+&lt;p&gt;The Puppet extension is able to debug the compilation of a Puppet manifest; much like the Go, PowerShell, and C# languages. The debugger supports:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Line breakpoints but not conditions on those breakpoints&lt;/li&gt;
+&lt;li&gt;Function breakpoints&lt;/li&gt;
+&lt;li&gt;Exception breakpoints&lt;/li&gt;
+&lt;li&gt;Call stack&lt;/li&gt;
+&lt;li&gt;Variables, but only at the top stack frame&lt;/li&gt;
+&lt;li&gt;Limited interactive debug console.  For example, you can assign a variable a value, but just as in regular Puppet you can&amp;rsquo;t change its value later&lt;/li&gt;
+&lt;li&gt;Step In, Out, and Over&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppet_debug.gif&#34; alt=&#34;Puppet Debug Adapter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The debugging features in the extension are based on the excellent ideas in &lt;a href=&#34;https://www.puppet-debugger.com/&#34; target=&#34;_blank&#34;&gt;puppet-debugger&lt;/a&gt; by &lt;a href=&#34;https://github.com/nwops&#34; target=&#34;_blank&#34;&gt;Corey Osman&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;configuring-the-debug-session&#34;&gt;Configuring the debug session&lt;/h4&gt;
+
+&lt;p&gt;To debug a simple manifest in VS Code, press &lt;code&gt;F5&lt;/code&gt; and VS Code will try to debug your currently active manifest by running the equivalent of &lt;code&gt;puppet apply&lt;/code&gt;. Note that by default No Operation (&lt;code&gt;--noop&lt;/code&gt;) is enabled so that your local computer will not be modified.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://code.visualstudio.com/docs/editor/debugging#_launch-configurations&#34; target=&#34;_blank&#34;&gt;VSCode Debugging - Launch Configurations&lt;/a&gt; website has instructions on how to configure the debug session with more advanced options.&lt;/p&gt;
+
+&lt;h4 id=&#34;settings&#34;&gt;Settings&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;manifest&lt;/code&gt; - The manifest to apply.  By default this is the currently open file in the editor&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;noop&lt;/code&gt; - Whether the &lt;code&gt;puppet apply&lt;/code&gt; sets No Operation (NoOp) mode.  By default, this is set to true.  This means when running the debugger it will not make changes to your system. The &lt;a href=&#34;https://puppet.com/docs/puppet/latest/man/apply.html#OPTIONS&#34; target=&#34;_blank&#34;&gt;documentation about the puppet agent&lt;/a&gt; has more information about &lt;code&gt;puppet apply&lt;/code&gt; and and the &lt;code&gt;noop&lt;/code&gt; option.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;args&lt;/code&gt; - Additional arguments to pass to &lt;code&gt;puppet apply&lt;/code&gt;, for example &lt;code&gt;[&#39;--debug&#39;]&lt;/code&gt; will output debug information&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Extension Settings</title>
+      <link>https://puppet-vscode.github.io/docs/extension-settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/extension-settings/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;You can configure &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/settings&#34; target=&#34;_blank&#34;&gt;User and Workspace VS Code settings&lt;/a&gt; for the Puppet Extension, like any other VS Code setting. The table below lists all of the available settings for the Puppet Extension&lt;/p&gt;
+
+
+
+&lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Information&lt;/h4&gt;
+The setting information comes from the Puppet VS Code Extension &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/blob/master/package.json&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;package.json&lt;/code&gt;&lt;/a&gt; file. If you would
+like to make changes, please create a project issue.
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;available-settings&#34;&gt;Available settings&lt;/h2&gt;
+
+&lt;!-- Begin Available Settings --&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-debugfilepath&#34;&gt;puppet.editorService.debugFilePath&lt;/h4&gt;
+
+&lt;p&gt;The absolute filepath where the Puppet Editor Service will output the debugging log. By default no logfile is generated&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-docker-imagename&#34;&gt;puppet.editorService.docker.imageName&lt;/h4&gt;
+
+&lt;p&gt;The name of the image with tag that contains the Puppet Language server. For example: linguapupuli/puppet-language-server:latest&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;linguapupuli/puppet-language-server:latest&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-enable&#34;&gt;puppet.editorService.enable&lt;/h4&gt;
+
+&lt;p&gt;Enable/disable advanced Puppet Language Features&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-featureflags&#34;&gt;puppet.editorService.featureFlags&lt;/h4&gt;
+
+&lt;p&gt;An array of strings of experimental features to enable in the Puppet Editor Service&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-loglevel&#34;&gt;puppet.editorService.loglevel&lt;/h4&gt;
+
+&lt;p&gt;Set the logging verbosity level for the Puppet Editor Service, with Debug producing the most output and Error producing the least&lt;/p&gt;
+
+&lt;p&gt;Possible values: &lt;code&gt;debug&lt;/code&gt;, &lt;code&gt;error&lt;/code&gt;, &lt;code&gt;normal&lt;/code&gt;, &lt;code&gt;warning&lt;/code&gt;, &lt;code&gt;verbose&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;normal&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-protocol&#34;&gt;puppet.editorService.protocol&lt;/h4&gt;
+
+&lt;p&gt;The protocol used to communicate with the Puppet Editor Service.  By default the local STDIO protocol is used&lt;/p&gt;
+
+&lt;p&gt;Possible values: &lt;code&gt;stdio&lt;/code&gt;, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;docker&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;stdio&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-puppet-confdir&#34;&gt;puppet.editorService.puppet.confdir&lt;/h4&gt;
+
+&lt;p&gt;The Puppet configuration directory. See &lt;a href=&#34;https://puppet.com/docs/puppet/latest/dirs_confdir.html&#34; target=&#34;_blank&#34;&gt;https://puppet.com/docs/puppet/latest/dirs_confdir.html&lt;/a&gt; for more information&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-puppet-environment&#34;&gt;puppet.editorService.puppet.environment&lt;/h4&gt;
+
+&lt;p&gt;The Puppet environment to use. See &lt;a href=&#34;https://puppet.com/docs/puppet/latest/config_print.html#environments&#34; target=&#34;_blank&#34;&gt;https://puppet.com/docs/puppet/latest/config_print.html#environments&lt;/a&gt; for more information&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-puppet-modulepath&#34;&gt;puppet.editorService.puppet.modulePath&lt;/h4&gt;
+
+&lt;p&gt;Additional module paths to use when starting the Editor Services. On Windows this is delimited with a semicolon, and on all other platforms, with a colon. For example C:\Path1;C:\Path2&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-puppet-vardir&#34;&gt;puppet.editorService.puppet.vardir&lt;/h4&gt;
+
+&lt;p&gt;The Puppet cache directory. See &lt;a href=&#34;https://puppet.com/docs/puppet/latest/dirs_vardir.html&#34; target=&#34;_blank&#34;&gt;https://puppet.com/docs/puppet/latest/dirs_vardir.html&lt;/a&gt; for more information&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-puppet-version&#34;&gt;puppet.editorService.puppet.version&lt;/h4&gt;
+
+&lt;p&gt;The version of Puppet to use. For example &amp;lsquo;5.4.0&amp;rsquo;. This is generally only applicable when using the PDK installation type. If Puppet Editor Services is unable to use this version, it will default to the latest available version of Puppet.&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-tcp-address&#34;&gt;puppet.editorService.tcp.address&lt;/h4&gt;
+
+&lt;p&gt;The IP address or hostname of the remote Puppet Editor Service to connect to, for example &amp;lsquo;computer.domain&amp;rsquo; or &amp;lsquo;192.168.0.1&amp;rsquo;. Only applicable when the editorService.protocol is set to tcp&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-tcp-port&#34;&gt;puppet.editorService.tcp.port&lt;/h4&gt;
+
+&lt;p&gt;The TCP Port of the remote Puppet Editor Service to connect to. Only applicable when the editorService.protocol is set to tcp&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-timeout&#34;&gt;puppet.editorService.timeout&lt;/h4&gt;
+
+&lt;p&gt;The timeout to connect to the Puppet Editor Service&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;10&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-format-enable&#34;&gt;puppet.format.enable&lt;/h4&gt;
+
+&lt;p&gt;Enable/disable the Puppet document formatter&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-installdirectory&#34;&gt;puppet.installDirectory&lt;/h4&gt;
+
+&lt;p&gt;The fully qualified path to the Puppet install directory. This can be a PDK or Puppet Agent installation. For example: &amp;lsquo;C:\Program Files\Puppet Labs\Puppet&amp;rsquo; or &amp;lsquo;/opt/puppetlabs/puppet&amp;rsquo;. If this is not set the extension will attempt to detect the installation directory&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-installtype&#34;&gt;puppet.installType&lt;/h4&gt;
+
+&lt;p&gt;The type of Puppet installation. Either the Puppet Development Kit (pdk) or the Puppet Agent (agent). Choose &amp;lsquo;auto&amp;rsquo; to have the extension detect which to use automatically based on default install locations&lt;/p&gt;
+
+&lt;p&gt;Possible values: &lt;code&gt;auto&lt;/code&gt;, &lt;code&gt;pdk&lt;/code&gt;, &lt;code&gt;agent&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;auto&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-notification-nodegraph&#34;&gt;puppet.notification.nodeGraph&lt;/h4&gt;
+
+&lt;p&gt;The type of notification used when a node graph is being generated. Default value of messagebox&lt;/p&gt;
+
+&lt;p&gt;Possible values: &lt;code&gt;messagebox&lt;/code&gt;, &lt;code&gt;statusbar&lt;/code&gt;, &lt;code&gt;none&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;messagebox&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-notification-puppetresource&#34;&gt;puppet.notification.puppetResource&lt;/h4&gt;
+
+&lt;p&gt;The type of notification used when a running Puppet Resouce. Default value of messagebox&lt;/p&gt;
+
+&lt;p&gt;Possible values: &lt;code&gt;messagebox&lt;/code&gt;, &lt;code&gt;statusbar&lt;/code&gt;, &lt;code&gt;none&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;messagebox&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-titlebar-pdknewmodule-enable&#34;&gt;puppet.titleBar.pdkNewModule.enable&lt;/h4&gt;
+
+&lt;p&gt;Enable/disable the PDK New Module icon in the Editor Title Bar&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
+
+&lt;!-- End Available Settings --&gt;
+
+&lt;h2 id=&#34;deprecated-settings&#34;&gt;Deprecated settings&lt;/h2&gt;
+
+&lt;!-- Begin Deprecated Settings --&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-modulepath&#34;&gt;puppet.editorService.modulePath&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.puppet.modulePath instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageclient-minimumuserloglevel&#34;&gt;puppet.languageclient.minimumUserLogLevel&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.loglevel instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageclient-protocol&#34;&gt;puppet.languageclient.protocol&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.protocol instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageserver-address&#34;&gt;puppet.languageserver.address&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.tcp.address instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageserver-debugfilepath&#34;&gt;puppet.languageserver.debugFilePath&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.debugFilePath instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageserver-filecache-enable&#34;&gt;puppet.languageserver.filecache.enable&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.featureFlags with &amp;lsquo;filecache&amp;rsquo; instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageserver-port&#34;&gt;puppet.languageserver.port&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.tcp.port instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-languageserver-timeout&#34;&gt;puppet.languageserver.timeout&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.editorService.timeout instead&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-puppetagentdir&#34;&gt;puppet.puppetAgentDir&lt;/h4&gt;
+
+&lt;p&gt;Please use puppet.installDirectory instead&lt;/p&gt;
+
+&lt;!-- End Deprecated Settings --&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Intellisense</title>
+      <link>https://puppet-vscode.github.io/docs/features/intellisense/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/intellisense/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;&lt;a href=&#34;https://code.visualstudio.com/docs/editor/intellisense&#34; target=&#34;_blank&#34;&gt;IntelliSense&lt;/a&gt; is a general term for a variety of code editing features including: code completion, parameter info, quick info, and member lists. IntelliSense features are sometimes called by other names such as &amp;ldquo;code completion&amp;rdquo;, &amp;ldquo;content assist&amp;rdquo;, and &amp;ldquo;code hinting.&amp;rdquo;&lt;/p&gt;
+
+&lt;h2 id=&#34;syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Syntax highlighting recognizes all versions of Puppet and displays as you type.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Puppet DSL&lt;/li&gt;
+&lt;li&gt;Puppet Grammar&lt;/li&gt;
+&lt;li&gt;Module metadata files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/syntax_highlighting.png&#34; alt=&#34;syntax_highlighting&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;auto-completion&#34;&gt;Auto Completion&lt;/h2&gt;
+
+&lt;p&gt;Auto complete Puppet types and classes and their parameter sets as you type. Tab completion works as you would expect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/auto_complete.gif&#34; alt=&#34;auto_complete&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hover-support&#34;&gt;Hover Support&lt;/h2&gt;
+
+&lt;p&gt;Hovering over any resource, class declaration or other Puppet symbol provides instant contextual information. For example, hovering over the resource declaration lists the type name and parameter list, with all relevant help text.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/hover_support.gif&#34; alt=&#34;hover_support&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;code-snippets&#34;&gt;Code Snippets&lt;/h2&gt;
+
+&lt;p&gt;As part of &lt;a href=&#34;https://code.visualstudio.com/docs/editor/userdefinedsnippets&#34; target=&#34;_blank&#34;&gt;IntelliSense and Snippets&lt;/a&gt;, you can quickly create templates to automate repetitive series of code.&lt;/p&gt;
+
+&lt;h2 id=&#34;live-workspace-intellisense&#34;&gt;Live Workspace Intellisense&lt;/h2&gt;
+
+&lt;p&gt;If you are editing a module, or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/control_repo.html&#34; target=&#34;_blank&#34;&gt;Control Repository&lt;/a&gt;, you will  get live intellisense of the &lt;a href=&#34;https://puppet.com/docs/puppet/latest/custom_types.html&#34; target=&#34;_blank&#34;&gt;Puppet Custom Types&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html&#34; target=&#34;_blank&#34;&gt;Functions&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_classes.html&#34; target=&#34;_blank&#34;&gt;Classes&lt;/a&gt; and &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_defined_types.html&#34; target=&#34;_blank&#34;&gt;Defined Types&lt;/a&gt;. For example if you are editing the &lt;a href=&#34;https://github.com/puppetlabs/puppetlabs-apache&#34; target=&#34;_blank&#34;&gt;puppetlabs-apache module&lt;/a&gt; you will be able to get auto-complete for resources like &lt;code&gt;apache::vhost&lt;/code&gt; or &lt;code&gt;apache::mod::php&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: Workspace Intellisense is only updated when you save a file, instead of features like linting which update as you type&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Linting</title>
+      <link>https://puppet-vscode.github.io/docs/features/linting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/linting/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Linting is automatically applied to the document as you edit, without having to save the file first. The validation uses &lt;a href=&#34;https://github.com/rodjek/puppet-lint&#34; target=&#34;_blank&#34;&gt;puppet-lint&lt;/a&gt; to validate the Puppet syntax in all open puppet files. Errors and warnings appear in the Problems window in VSCode.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Puppet Bolt</title>
+      <link>https://puppet-vscode.github.io/docs/features/puppet-bolt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/puppet-bolt/</guid>
+      <description>
+        
+        
+        
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
+This is an experimental feature
+&lt;/div&gt;
+
+
+&lt;p&gt;Support for Puppet Bolt was added in version 0.17.0 of the Puppet VS Code Extension. Fully supporting an end to end Puppet Bolt editing experience is a multi-step process, so this is experimental for now.&lt;/p&gt;
+
+&lt;p&gt;The first step in this is enabling parsing Bolt Plans. This means when opening a Puppet module with Puppet Bolt plans or a folder with a Puppet Bolt plan file the Puppet VSCode Extension will no longer log an error in the Problems Pane for failing to parse Puppet Bolt Plan keywords. You will get symbol support (OutlineView and Breadcrumbs) as well as syntax highlighting. Subsequent releases will focus on adding intellisense, autocompletion, hover support and other advanced editor features. This work is tracked in the &lt;a href=&#34;https://github.com/orgs/lingua-pupuli/projects/20&#34; target=&#34;_blank&#34;&gt;Puppet Bolt Support Github project&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-bolt-commands-and-snippets&#34;&gt;Puppet Bolt Commands and Snippets&lt;/h4&gt;
+
+&lt;p&gt;We have added support for VSCode Command Palette commands for opening Bolt user config and inventory YAML files. We have also added support for YAML snippets for common operations in Bolt YAML files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/bolt_config_command.gif&#34; alt=&#34;bolt_command_palette&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/bolt_inventory_command.gif&#34; alt=&#34;bolt_command_palette&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Puppet Commands</title>
+      <link>https://puppet-vscode.github.io/docs/features/puppet-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/puppet-commands/</guid>
+      <description>
+        
+        
+        
+
+&lt;h2 id=&#34;puppet-resource&#34;&gt;Puppet Resource&lt;/h2&gt;
+
+&lt;p&gt;You can import existing resources directly using &lt;code&gt;puppet resource&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the command palette (&lt;code&gt;Ctrl+Shift+P&lt;/code&gt;) or right click on a puppet file and select the menu entry&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Type &lt;code&gt;puppet resource&lt;/code&gt; and press enter&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the resource type you want to import, for example &lt;code&gt;user&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The information returned will be pasted into the open editor window where your cursor is resting, or at the begining of an empty file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppet_resource.gif&#34; alt=&#34;puppet_resource&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change the notification message from the default message box, to a status bar notification or none at all, using the &lt;code&gt;puppet.notification.puppetResource&lt;/code&gt; configuration setting.&lt;/p&gt;
+
+&lt;h2 id=&#34;puppet-node-graph-preview&#34;&gt;Puppet Node Graph preview&lt;/h2&gt;
+
+&lt;p&gt;You can preview the &lt;a href=&#34;https://puppet.com/blog/visualize-your-infrastructure-models&#34; target=&#34;_blank&#34;&gt;node graph&lt;/a&gt; of a manifest while you edit your Puppet Code.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open the command palette (&lt;code&gt;Ctrl+Shift+P&lt;/code&gt;) or right click on a puppet file and select the menu entry&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Type &lt;code&gt;puppet open node&lt;/code&gt;.. and press enter&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The node graph will appear next to the manifest&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppet_node_graph.gif&#34; alt=&#34;puppet_node_graph&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can change the notification message from the default message box, to a status bar notification or none at all, using the &lt;code&gt;puppet.notification.nodeGraph&lt;/code&gt; configuration setting.&lt;/p&gt;
+
+&lt;p&gt;TODO - explain the include problem&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Puppet Development Kit</title>
+      <link>https://puppet-vscode.github.io/docs/features/puppet-development-kit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/puppet-development-kit/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;You can use the &lt;a href=&#34;https://puppet.com/blog/develop-modules-faster-new-puppet-development-kit&#34; target=&#34;_blank&#34;&gt;Puppet Development Kit&lt;/a&gt; inside VS Code from the command palette. To use any of the above commands, open the command palette and start typing a command. You can also use the right-click context menu or the editor menu to reach these commands.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: The PDK must be installed prior to using these commands&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;h3 id=&#34;unsupported-commands&#34;&gt;Unsupported commands&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;pdk convert&lt;/code&gt; is not available in the command palette as it is a complicated command that requires user input to succeed. It is better to use it from the builtin terminal.&lt;/p&gt;
+
+&lt;h3 id=&#34;pdk-supported-versions&#34;&gt;PDK Supported Versions&lt;/h3&gt;
+
+&lt;p&gt;The Puppet VSCode Extension supports the current PDK version, and one older version.&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-new-module&#34;&gt;PDK new module&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;PDK New Module&lt;/code&gt; is available even if the extension isn&amp;rsquo;t loaded, the rest of the commands are only available when the extension is loaded.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_module.gif&#34; alt=&#34;pdk_new_module&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-new-class&#34;&gt;PDK new class&lt;/h2&gt;
+
+&lt;p&gt;You can create new classes using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_class.gif&#34; alt=&#34;pdk_new_class&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-validate&#34;&gt;PDK validate&lt;/h2&gt;
+
+&lt;p&gt;You can initiate a valiadtion of your module using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_validate.gif&#34; alt=&#34;pdk_validate&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pdk-test-unit&#34;&gt;PDK test unit&lt;/h2&gt;
+
+&lt;p&gt;You can run the test suite of your module using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_test_unit.gif&#34; alt=&#34;pdk_test_unit&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Remote Development</title>
+      <link>https://puppet-vscode.github.io/docs/features/remote-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/remote-development/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Coming Soon&lt;/h4&gt;
+&lt;p&gt;Containers, WSL and Docker&lt;/p&gt;
+
+&lt;p&gt;Under active development!!&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Experiencing a Problem?</title>
+      <link>https://puppet-vscode.github.io/docs/experience-a-problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/experience-a-problem/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;The extension is quite resilient but sometimes, something goes wrong. The following sections hope to address some common issues, and if those don&amp;rsquo;t work, how to give the maintainers the most amount of information so it can be fixed quickly.&lt;/p&gt;
+
+&lt;h3 id=&#34;puppet-agent-install&#34;&gt;Puppet Agent Install&lt;/h3&gt;
+
+&lt;p&gt;A commonly encountered problem is not having the PDK or Puppet Agent installed on the computer you are running VSCode on. As noted in the &lt;a href=&#34;https://puppet-vscode.github.io/docs/getting-started/#prerequisites&#34; target=&#34;_blank&#34;&gt;Prerequisites section&lt;/a&gt;, you will need to have the PDK or Puppet Agent installed in order to fully use this extension, as the extension uses the Puppet binaries and the Ruby language bundled into the PDK or agent install in order to function.&lt;/p&gt;
+
+&lt;p&gt;If you are receiving an error right after opening a Puppet file saying that a Puppet Agent install could not be found, ensure that Puppet is installed on the system. The VSCode extension attempts to find a valid Puppet install if a path is not configured in &lt;code&gt;puppet.installDirectory&lt;/code&gt; in &lt;code&gt;User Settings&lt;/code&gt;, so if Puppet is installed but not in a default path please check that your setting points to the correct path.&lt;/p&gt;
+
+&lt;h3 id=&#34;reloading-the-puppet-vscode-extension&#34;&gt;Reloading the Puppet VSCode extension&lt;/h3&gt;
+
+&lt;p&gt;If you haven&amp;rsquo;t see the Problems Pane update in awhile, or hover and intellisense doesn&amp;rsquo;t seem to showing up, and you might not know what to do. Sometimes the Puppet extension can experience problems which cause the language server to crash or not respond. The extension has a way of logging the crash, but there is something you can do to get right back to working: reload the Puppet Language Server.&lt;/p&gt;
+
+&lt;p&gt;You can reload the Puppet Language Server by opening the command palette and starting to type &lt;code&gt;Reload&lt;/code&gt;. A list of commands will appear, select &lt;code&gt;Reload Window&lt;/code&gt;. This will reload the Visual Studio Code window without closing down the entire editor, and without losing any work currently open in the editor.&lt;/p&gt;
+
+&lt;h2 id=&#34;reporting-problems&#34;&gt;Reporting Problems&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;re having trouble with the Puppet extension, please follow these instructions
+to file an issue on our GitHub repository:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-file-an-issue-on-our-issues-page-https-github-com-lingua-pupuli-puppet-vscode-issues&#34;&gt;1. File an issue on our &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues&#34; target=&#34;_blank&#34;&gt;Issues Page&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Make sure to fill in the information that is requested in the issue template as it
+will help us investigate the problem more quickly.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-capture-verbose-logs-and-send-them-to-us&#34;&gt;2. Capture verbose logs and send them to us&lt;/h3&gt;
+
+&lt;p&gt;If you&amp;rsquo;re having an issue with crashing or other erratic behavior, add the following
+line to your User Settings in Visual Studio Code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;    &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;puppet.editorService.loglevel&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;debug&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;,&lt;/span&gt;
+    &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;puppet.editorService.debugFilePath&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#4e9a06&#34;&gt;&amp;#34;C:\\Some\\file\\path.txt&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Restart Visual Studio Code and try to reproduce the problem, then examine the log. If the issue persists please open an issue and add both the content of the &lt;code&gt;Output&lt;/code&gt; pane as well as the content in the log file. Please inspect the log and be sure to redact any information you would not want posted publicly.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Telemetry</title>
+      <link>https://puppet-vscode.github.io/docs/telemetry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/telemetry/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This extension collects telemetry data to help us build a better experience for writing manifest and modules with Puppet and VS Code. We only collect data on which commands are executed. We do not collect any information about files, paths, etc. The extension respects the &lt;code&gt;telemetry.enableTelemetry&lt;/code&gt; setting which you can learn more about in the &lt;a href=&#34;https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting&#34; target=&#34;_blank&#34;&gt;VS Code FAQ&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Project Maintainers</title>
+      <link>https://puppet-vscode.github.io/docs/project-maintainers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/project-maintainers/</guid>
+      <description>
+        
+        
+        
+
+&lt;h2 id=&#34;core-maintainers&#34;&gt;Core Maintainers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/jpogran&#34; target=&#34;_blank&#34;&gt;James Pogran&lt;/a&gt; - &lt;a href=&#34;http://twitter.com/ender2025&#34; target=&#34;_blank&#34;&gt;@ender2025&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/glennsarti&#34; target=&#34;_blank&#34;&gt;Glenn Sarti&lt;/a&gt; - &lt;a href=&#34;http://twitter.com/glennsarti&#34; target=&#34;_blank&#34;&gt;@glennsarti&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;contributors&#34;&gt;Contributors&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/michaeltlombardi&#34; target=&#34;_blank&#34;&gt;Michael T Lombardi&lt;/a&gt; - &lt;a href=&#34;http://twitter.com/TrebuchetOps&#34; target=&#34;_blank&#34;&gt;@TrebuchetOps&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/austb&#34; target=&#34;_blank&#34;&gt;Austin Blatt&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

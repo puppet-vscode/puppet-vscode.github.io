@@ -25,14 +25,14 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://puppet-vscode.github.io/docs/features/puppet-development-kit/" />
-<meta property="article:modified_time" content="2019-08-15T15:08:28+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
+<meta property="article:modified_time" content="2019-08-22T17:09:59+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
 <meta itemprop="name" content="Puppet Development Kit">
 <meta itemprop="description" content="Built in PDK Development Kit (PDK) commands
 ">
 
 
-<meta itemprop="dateModified" content="2019-08-15T15:08:28&#43;08:00" />
-<meta itemprop="wordCount" content="239">
+<meta itemprop="dateModified" content="2019-08-22T17:09:59&#43;08:00" />
+<meta itemprop="wordCount" content="292">
 
 
 
@@ -210,6 +210,12 @@
       
       
       
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-experimental-features" href="/docs/features/experimental-features/">Experimental Features</a>
+      
+      
+      
+      
+      
       <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-intellisense" href="/docs/features/intellisense/">Intellisense</a>
       
       
@@ -300,9 +306,10 @@
 <ul>
 <li><a href="#requirements">Requirements</a>
 <ul>
+<li><a href="#supported-pdk-versions">Supported PDK versions</a></li>
 <li><a href="#unsupported-commands">Unsupported commands</a></li>
-<li><a href="#pdk-supported-versions">PDK Supported Versions</a></li>
 </ul></li>
+<li><a href="#changing-the-version-of-puppet">Changing the version of Puppet</a></li>
 <li><a href="#pdk-new-module">PDK new module</a></li>
 <li><a href="#pdk-new-class">PDK new class</a></li>
 <li><a href="#pdk-validate">PDK validate</a></li>
@@ -363,13 +370,19 @@
 
 <h2 id="requirements">Requirements</h2>
 
+<h3 id="supported-pdk-versions">Supported PDK versions</h3>
+
+<p>The Puppet VSCode Extension supports the current PDK version, and one older version.</p>
+
 <h3 id="unsupported-commands">Unsupported commands</h3>
 
 <p><code>pdk convert</code> is not available in the command palette as it is a complicated command that requires user input to succeed. It is better to use it from the builtin terminal.</p>
 
-<h3 id="pdk-supported-versions">PDK Supported Versions</h3>
+<h2 id="changing-the-version-of-puppet">Changing the version of Puppet</h2>
 
-<p>The Puppet VSCode Extension supports the current PDK version, and one older version.</p>
+<p>You can change the version from the status bar in Visual Studio Code.  Click on the Puppet version text in the status bar and then select which Puppet version you would like to use. Note that this will require Visual Studio Code to be restarted to take effect.</p>
+
+<p><img src="https://puppet-vscode.github.io/img/change-puppet-version.gif" alt="changing_puppet_version" /></p>
 
 <h2 id="pdk-new-module">PDK new module</h2>
 
@@ -397,7 +410,7 @@
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified August 15, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/812d237c2d882c79e359ccaebc8542aea5da4979">(GH-2) Use Docsy as template for all sites. (812d237)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified August 22, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/6e2b784b3aaa718ad9aa25369c1d01453c25f0fe">f more content updates (6e2b784)</a>
 </div>
 </div>
 

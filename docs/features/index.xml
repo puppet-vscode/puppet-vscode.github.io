@@ -41,7 +41,7 @@
 &lt;p&gt;More symbols are planned to be added.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Note: Outline View is not support on Puppet 4&lt;/p&gt;
+&lt;p&gt;Note: Outline View is supported on Puppet 5.0 and above&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/outline_view.gif&#34; alt=&#34;outline_view&#34; /&gt;&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;p&gt;When the &lt;code&gt;breadcrumbs.enabled&lt;/code&gt; setting is set to true, both the file path and the symbol tree hierarchy are shown in the Breadcrumb view.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Note: Breadcrumbs are not support on Puppet 4&lt;/p&gt;
+&lt;p&gt;Note: Breadcrumbs are supported on Puppet 5.0 and above&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/breadcrumbs.gif&#34; alt=&#34;breadcrumbs&#34; /&gt;&lt;/p&gt;
@@ -61,7 +61,7 @@
 &lt;p&gt;Opening the &lt;code&gt;Command Palette&lt;/code&gt; and typing the &lt;code&gt;@&lt;/code&gt; symbol initiates the &lt;code&gt;Go to Symbol&lt;/code&gt; view which allows you to navigate around inside a Puppet manifest more quickly.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Note: Go to Symbol is not support on Puppet 4&lt;/p&gt;
+&lt;p&gt;Note: Go to Symbol is supported on Puppet 5.0 and above&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/go_to_symbol.gif&#34; alt=&#34;go_to_symbol&#34; /&gt;&lt;/p&gt;
@@ -155,6 +155,48 @@ This is an experimental feature
     </item>
     
     <item>
+      <title>Docs: Experimental Features</title>
+      <link>https://puppet-vscode.github.io/docs/features/experimental-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/features/experimental-features/</guid>
+      <description>
+        
+        
+        
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
+Experimental features may not always work and could cause the extension to crash, or behave in strange ways.
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;why-use-feature-flags&#34;&gt;Why use feature flags?&lt;/h2&gt;
+
+&lt;p&gt;The Puppet VS Code extension changes quickly, and the maintainers would like to get new features into &amp;ldquo;your hands&amp;rdquo; as soon as possible. To make this possible experimental features are only turned on with the correct &lt;a href=&#34;https://en.wikipedia.org/wiki/Feature_toggle&#34; target=&#34;_blank&#34;&gt;feature flag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can enable feature flags using the &lt;code&gt;puppet.editorService.featureFlags&lt;/code&gt; &lt;a href=&#34;../../extension-settings/#puppet-editorservice-featureflags&#34;&gt;setting&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The following feature flags are available for use&lt;/p&gt;
+
+&lt;h2 id=&#34;puppetstrings&#34;&gt;&lt;code&gt;puppetstrings&lt;/code&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;color:#a40000&#34;&gt;puppet.editorService.featureFlags&lt;/span&gt; &lt;span style=&#34;color:#a40000&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#a40000&#34;&gt;&amp;#39;puppetstrings&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#000;font-weight:bold&#34;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Puppet Development Kit&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Puppet 6.0 and above&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Uses &lt;a href=&#34;https://github.com/puppetlabs/puppet-strings&#34; target=&#34;_blank&#34;&gt;Puppet Strings&lt;/a&gt; to generate the intellisense information instead of the legacy techniques. Puppet Strings can enumerate &lt;a href=&#34;https://puppet.com/docs/puppet/latest/functions_ruby_overview.html&#34; target=&#34;_blank&#34;&gt;modern API Puppet Functions&lt;/a&gt; and Puppet &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_data_type.html&#34; target=&#34;_blank&#34;&gt;Data Types&lt;/a&gt;. This is part of the &lt;a href=&#34;https://github.com/orgs/lingua-pupuli/projects/23&#34; target=&#34;_blank&#34;&gt;Puppet 4 API and Puppet Agent 6 project&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Intellisense</title>
       <link>https://puppet-vscode.github.io/docs/features/intellisense/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -184,6 +226,12 @@ This is an experimental feature
 &lt;p&gt;Auto complete Puppet types and classes and their parameter sets as you type. Tab completion works as you would expect.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/auto_complete.gif&#34; alt=&#34;auto_complete&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;function-signatures&#34;&gt;Function Signatures&lt;/h2&gt;
+
+&lt;p&gt;Get hints about the different ways you can call functions, also known as &lt;a href=&#34;https://puppet.com/docs/puppet/latest/functions_ruby_signatures.html&#34; target=&#34;_blank&#34;&gt;function signatures&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/signature_provider.gif&#34; alt=&#34;function_signatures&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;hover-support&#34;&gt;Hover Support&lt;/h2&gt;
 
@@ -323,13 +371,19 @@ This is an experimental feature
 
 &lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
 
+&lt;h3 id=&#34;supported-pdk-versions&#34;&gt;Supported PDK versions&lt;/h3&gt;
+
+&lt;p&gt;The Puppet VSCode Extension supports the current PDK version, and one older version.&lt;/p&gt;
+
 &lt;h3 id=&#34;unsupported-commands&#34;&gt;Unsupported commands&lt;/h3&gt;
 
 &lt;p&gt;&lt;code&gt;pdk convert&lt;/code&gt; is not available in the command palette as it is a complicated command that requires user input to succeed. It is better to use it from the builtin terminal.&lt;/p&gt;
 
-&lt;h3 id=&#34;pdk-supported-versions&#34;&gt;PDK Supported Versions&lt;/h3&gt;
+&lt;h2 id=&#34;changing-the-version-of-puppet&#34;&gt;Changing the version of Puppet&lt;/h2&gt;
 
-&lt;p&gt;The Puppet VSCode Extension supports the current PDK version, and one older version.&lt;/p&gt;
+&lt;p&gt;You can change the version from the status bar in Visual Studio Code.  Click on the Puppet version text in the status bar and then select which Puppet version you would like to use. Note that this will require Visual Studio Code to be restarted to take effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/change-puppet-version.gif&#34; alt=&#34;changing_puppet_version&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;pdk-new-module&#34;&gt;PDK new module&lt;/h2&gt;
 

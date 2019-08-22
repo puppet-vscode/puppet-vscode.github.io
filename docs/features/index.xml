@@ -111,13 +111,7 @@
         
         
 
-
-
-&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Warning&lt;/h4&gt;
-This is an experimental feature
-&lt;/div&gt;
-
+&lt;!-- TODO Need to change this entire section --&gt;
 
 &lt;p&gt;The Puppet extension is able to debug the compilation of a Puppet manifest; much like the Go, PowerShell, and C# languages. The debugger supports:&lt;/p&gt;
 

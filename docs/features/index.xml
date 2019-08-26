@@ -185,7 +185,7 @@ Experimental features may not always work and could cause the extension to crash
 &lt;li&gt;&lt;p&gt;Puppet 6.0 and above&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Uses &lt;a href=&#34;https://github.com/puppetlabs/puppet-strings&#34; target=&#34;_blank&#34;&gt;Puppet Strings&lt;/a&gt; to generate the intellisense information instead of the legacy techniques. Puppet Strings can enumerate &lt;a href=&#34;https://puppet.com/docs/puppet/latest/functions_ruby_overview.html&#34; target=&#34;_blank&#34;&gt;modern API Puppet Functions&lt;/a&gt; and Puppet &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_data_type.html&#34; target=&#34;_blank&#34;&gt;Data Types&lt;/a&gt;. This is part of the &lt;a href=&#34;https://github.com/orgs/lingua-pupuli/projects/23&#34; target=&#34;_blank&#34;&gt;Puppet 4 API and Puppet Agent 6 project&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Uses &lt;a href=&#34;https://github.com/puppetlabs/puppet-strings&#34; target=&#34;_blank&#34;&gt;Puppet Strings&lt;/a&gt; to generate the intellisense information, instead of the legacy (Puppet 3.x) techniques. Puppet Strings can enumerate &lt;a href=&#34;https://puppet.com/docs/puppet/latest/functions_ruby_overview.html&#34; target=&#34;_blank&#34;&gt;modern API Puppet Functions&lt;/a&gt; and Puppet &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_data_type.html&#34; target=&#34;_blank&#34;&gt;Data Types&lt;/a&gt;. This is part of the &lt;a href=&#34;https://github.com/orgs/lingua-pupuli/projects/23&#34; target=&#34;_blank&#34;&gt;Puppet 4 API and Puppet Agent 6 project&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
@@ -224,6 +224,10 @@ Experimental features may not always work and could cause the extension to crash
 &lt;h2 id=&#34;function-signatures&#34;&gt;Function Signatures&lt;/h2&gt;
 
 &lt;p&gt;Get hints about the different ways you can call functions, also known as &lt;a href=&#34;https://puppet.com/docs/puppet/latest/functions_ruby_signatures.html&#34; target=&#34;_blank&#34;&gt;function signatures&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Currently only a single signature will appear for Puppet Functions. When the the &lt;a href=&#34;../experimental-features/#puppetstrings&#34;&gt;&lt;code&gt;puppetstrings&lt;/code&gt;&lt;/a&gt; feature flag is set, functions will show all available signatures, as it is in the example below.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/signature_provider.gif&#34; alt=&#34;function_signatures&#34; /&gt;&lt;/p&gt;
 

@@ -365,10 +365,6 @@ like to make changes, please create a project issue.
 
 &lt;p&gt;The absolute filepath where the Puppet Editor Service will output the debugging log. By default no logfile is generated&lt;/p&gt;
 
-&lt;h4 id=&#34;puppet-editorservice-docker-imagename&#34;&gt;puppet.editorService.docker.imageName&lt;/h4&gt;
-
-&lt;p&gt;The name of the image with tag that contains the Puppet Language server. For example: linguapupuli/puppet-language-server:latest&lt;/p&gt;
-
 &lt;p&gt;Default: &lt;code&gt;linguapupuli/puppet-language-server:latest&lt;/code&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;puppet-editorservice-enable&#34;&gt;puppet.editorService.enable&lt;/h4&gt;
@@ -381,6 +377,12 @@ like to make changes, please create a project issue.
 
 &lt;p&gt;An array of strings of experimental features to enable in the Puppet Editor Service&lt;/p&gt;
 
+&lt;h4 id=&#34;puppet-editorservice-hover-showmetadatainfo&#34;&gt;puppet.editorService.hover.showMetadataInfo&lt;/h4&gt;
+
+&lt;p&gt;Enable or disable showing Puppet Module version information in the metadata.json file&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
+
 &lt;h4 id=&#34;puppet-editorservice-loglevel&#34;&gt;puppet.editorService.loglevel&lt;/h4&gt;
 
 &lt;p&gt;Set the logging verbosity level for the Puppet Editor Service, with Debug producing the most output and Error producing the least&lt;/p&gt;
@@ -391,7 +393,7 @@ like to make changes, please create a project issue.
 
 &lt;h4 id=&#34;puppet-editorservice-protocol&#34;&gt;puppet.editorService.protocol&lt;/h4&gt;
 
-&lt;p&gt;The protocol used to communicate with the Puppet Editor Service.  By default the local STDIO protocol is used&lt;/p&gt;
+&lt;p&gt;The protocol used to communicate with the Puppet Editor Service. By default the local STDIO protocol is used. The docker protocol is &lt;strong&gt;DEPRECATED&lt;/strong&gt; and will be removed in a future version&lt;/p&gt;
 
 &lt;p&gt;Possible values: &lt;code&gt;stdio&lt;/code&gt;, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;docker&lt;/code&gt;&lt;/p&gt;
 
@@ -465,6 +467,12 @@ like to make changes, please create a project issue.
 
 &lt;p&gt;Default: &lt;code&gt;messagebox&lt;/code&gt;&lt;/p&gt;
 
+&lt;h4 id=&#34;puppet-pdk-checkversion&#34;&gt;puppet.pdk.checkVersion&lt;/h4&gt;
+
+&lt;p&gt;Enable/disable checking if installed PDK version is latest&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
+
 &lt;h4 id=&#34;puppet-titlebar-pdknewmodule-enable&#34;&gt;puppet.titleBar.pdkNewModule.enable&lt;/h4&gt;
 
 &lt;p&gt;Enable/disable the PDK New Module icon in the Editor Title Bar&lt;/p&gt;
@@ -476,6 +484,10 @@ like to make changes, please create a project issue.
 &lt;h2 id=&#34;deprecated-settings&#34;&gt;Deprecated settings&lt;/h2&gt;
 
 &lt;!-- Begin Deprecated Settings --&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-docker-imagename&#34;&gt;puppet.editorService.docker.imageName&lt;/h4&gt;
+
+&lt;p&gt;The name of the image with tag that contains the Puppet Language server. For example: linguapupuli/puppet-language-server:latest&lt;/p&gt;
 
 &lt;h4 id=&#34;puppet-editorservice-modulepath&#34;&gt;puppet.editorService.modulePath&lt;/h4&gt;
 

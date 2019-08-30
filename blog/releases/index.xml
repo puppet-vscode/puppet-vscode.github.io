@@ -15,6 +15,49 @@
     
     
     <item>
+      <title>Blog: Release 0.20.0</title>
+      <link>https://puppet-vscode.github.io/blog/2019/08/30/release-0.20.0/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/08/30/release-0.20.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/docs/issues/2&#34; target=&#34;_blank&#34;&gt;GH-2&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/docs/releases/tag/0.1.0&#34; target=&#34;_blank&#34;&gt;docs-0.1.0&lt;/a&gt; Puppet VSCode Website v1&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/534&#34; target=&#34;_blank&#34;&gt;GH-534&lt;/a&gt;) Puppet Module Metadata hover provider&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/541&#34; target=&#34;_blank&#34;&gt;GH-541&lt;/a&gt;) Check for latest PDK version and notify&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/546&#34; target=&#34;_blank&#34;&gt;GH-546&lt;/a&gt;) Update Puppet DAG svg icon&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/55&#34; target=&#34;_blank&#34;&gt;GH-55&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.21.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.21.0&lt;/a&gt; Allow Debug Server to work with Puppet 6&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/106&#34; target=&#34;_blank&#34;&gt;GH-106&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.21.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.21.0&lt;/a&gt; Update puppet-lint to 2.3.6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/43&#34; target=&#34;_blank&#34;&gt;GH-43&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/2ecb3d4b44e7d8b413b91676f39ade0ae0c4b2b4&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.3&lt;/a&gt; Fix syntax highlighting for resource references and chain arrows&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/34&#34; target=&#34;_blank&#34;&gt;GH-34&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/commit/2ecb3d4b44e7d8b413b91676f39ade0ae0c4b2b4&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.3&lt;/a&gt; Comments in hashes should tokenize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;deprecated&#34;&gt;Deprecated&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[maint] Puppet Docker Protocol deprecated in favor of Microsoft Remote Container Extension&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.19.0</title>
       <link>https://puppet-vscode.github.io/blog/2019/07/19/release-0.19.0/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>

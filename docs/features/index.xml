@@ -361,51 +361,116 @@ This is an experimental feature
         
         
 
-&lt;p&gt;You can use the &lt;a href=&#34;https://puppet.com/blog/develop-modules-faster-new-puppet-development-kit&#34; target=&#34;_blank&#34;&gt;Puppet Development Kit&lt;/a&gt; inside VS Code from the command palette. To use any of the above commands, open the command palette and start typing a command. You can also use the right-click context menu or the editor menu to reach these commands.&lt;/p&gt;
+&lt;p&gt;You can use the &lt;a href=&#34;https://puppet.com/blog/develop-modules-faster-new-puppet-development-kit&#34; target=&#34;_blank&#34;&gt;Puppet Development Kit&lt;/a&gt; inside VS Code from the command palette.&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Note: The PDK must be installed prior to using these commands&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;To use any of these PDK commands, open the command palette and start typing a command.&lt;/p&gt;
+
+&lt;p&gt;You can also use the right-click context menu or the editor menu to reach these commands.&lt;/p&gt;
 
 &lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
 
-&lt;h3 id=&#34;supported-pdk-versions&#34;&gt;Supported PDK versions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A supported version of the Puppet Development Kit installed&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;The Puppet VSCode Extension supports the current PDK version, and one older version.&lt;/p&gt;
+&lt;h2 id=&#34;integration&#34;&gt;Integration&lt;/h2&gt;
 
-&lt;h3 id=&#34;unsupported-commands&#34;&gt;Unsupported commands&lt;/h3&gt;
+&lt;p&gt;The Puppet VS Code Extension uses the PDK package to execute PDK commands. This means all commands are executed in a local shell by passing string commands.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;pdk convert&lt;/code&gt; is not available in the command palette as it is a complicated command that requires user input to succeed. It is better to use it from the builtin terminal.&lt;/p&gt;
+&lt;h2 id=&#34;supported-pdk-commands&#34;&gt;Supported PDK Commands&lt;/h2&gt;
 
-&lt;h2 id=&#34;changing-the-version-of-puppet&#34;&gt;Changing the version of Puppet&lt;/h2&gt;
+&lt;h3 id=&#34;pdk-new-module&#34;&gt;PDK New Module&lt;/h3&gt;
 
-&lt;p&gt;You can change the version from the status bar in Visual Studio Code.  Click on the Puppet version text in the status bar and then select which Puppet version you would like to use. Note that this will require Visual Studio Code to be restarted to take effect.&lt;/p&gt;
+&lt;p&gt;You can create new Puppet modules using the PDK and VS Code by using the &lt;code&gt;PDK: New Module&lt;/code&gt;command. This is the same functionality as &lt;code&gt;pdk new module&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/change-puppet-version.gif&#34; alt=&#34;changing_puppet_version&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;You can execute the &lt;code&gt;PDK: New Module&lt;/code&gt; command using the Puppet DAG icon in the upper right hand corner of the editor window, from the VS Code Command Palatte, or from a editor Context menu.&lt;/p&gt;
 
-&lt;h2 id=&#34;pdk-new-module&#34;&gt;PDK new module&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;PDK: New Module&lt;/code&gt; command is available even if the extension isn&amp;rsquo;t loaded, so it can be used in an empty VS Code window or in a VS Code instance with a folder already opened.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;PDK New Module&lt;/code&gt; is available even if the extension isn&amp;rsquo;t loaded, the rest of the commands are only available when the extension is loaded.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This command has limited usefullness in a session in the &lt;a href=&#34;https://code.visualstudio.com/docs/remote/containers&#34; target=&#34;_blank&#34;&gt;Microsoft Remote Container Extension&lt;/a&gt;, as it might not have access to the host filesystem path you desire.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_module.gif&#34; alt=&#34;pdk_new_module&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;pdk-new-class&#34;&gt;PDK new class&lt;/h2&gt;
+&lt;h3 id=&#34;pdk-new-class&#34;&gt;PDK New Class&lt;/h3&gt;
 
-&lt;p&gt;You can create new classes using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+&lt;p&gt;You can create new Puppet classes using the PDK and VS Code by using the &lt;code&gt;PDK: New Class&lt;/code&gt;command. This VS Code command opens up an integrated VS Code terminal and issues the &lt;code&gt;pdk new class&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;You can execute the &lt;code&gt;PDK: New Class&lt;/code&gt; command using the the VS Code Command Palatte, or from a editor Context menu.&lt;/p&gt;
+
+&lt;p&gt;This command works well both in a regular VS Code session and in a &lt;a href=&#34;https://code.visualstudio.com/docs/remote/containers&#34; target=&#34;_blank&#34;&gt;Microsoft Remote Container Extension&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/docs/remote/wsl&#34; target=&#34;_blank&#34;&gt;Microsoft WSL Extension&lt;/a&gt; session.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: This command is only available when the Puppet VS Code Extension has loaded&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_class.gif&#34; alt=&#34;pdk_new_class&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;pdk-validate&#34;&gt;PDK validate&lt;/h2&gt;
+&lt;h3 id=&#34;pdk-new-defined-type&#34;&gt;PDK New Defined Type&lt;/h3&gt;
 
-&lt;p&gt;You can initiate a valiadtion of your module using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+&lt;p&gt;You can create new Puppet classes using the PDK and VS Code by using the &lt;code&gt;PDK: New Defined Type&lt;/code&gt;command. This VS Code command opens up an integrated VS Code terminal and issues the &lt;code&gt;pdk new defined_type&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;You can execute the &lt;code&gt;PDK: New Defined Type&lt;/code&gt; command using the the VS Code Command Palatte, or from a editor Context menu.&lt;/p&gt;
+
+&lt;p&gt;This command works well both in a regular VS Code session and in a &lt;a href=&#34;https://code.visualstudio.com/docs/remote/containers&#34; target=&#34;_blank&#34;&gt;Microsoft Remote Container Extension&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/docs/remote/wsl&#34; target=&#34;_blank&#34;&gt;Microsoft WSL Extension&lt;/a&gt; session.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: This command is only available when the Puppet VS Code Extension has loaded&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_new_defined_type.gif&#34; alt=&#34;pdk_new_defined_type&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pdk-validate&#34;&gt;PDK validate&lt;/h3&gt;
+
+&lt;p&gt;You can validate your Puppet module using the PDK and VS Code by using the &lt;code&gt;PDK: Validate&lt;/code&gt; command. This VS Code command opens up an integrated VS Code terminal and issues the &lt;code&gt;pdk new validate&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;You can execute the &lt;code&gt;PDK: Validate&lt;/code&gt; command using the the VS Code Command Palatte.&lt;/p&gt;
+
+&lt;p&gt;This command works well both in a regular VS Code session and in a &lt;a href=&#34;https://code.visualstudio.com/docs/remote/containers&#34; target=&#34;_blank&#34;&gt;Microsoft Remote Container Extension&lt;/a&gt; or &lt;a href=&#34;https://code.visualstudio.com/docs/remote/wsl&#34; target=&#34;_blank&#34;&gt;Microsoft WSL Extension&lt;/a&gt; session.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: This command is only available when the Puppet VS Code Extension has loaded&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_validate.gif&#34; alt=&#34;pdk_validate&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;pdk-test-unit&#34;&gt;PDK test unit&lt;/h2&gt;
+&lt;h3 id=&#34;pdk-test-unit&#34;&gt;PDK test unit&lt;/h3&gt;
 
-&lt;p&gt;You can run the test suite of your module using PDK using the VS Code command palette. This functionality is only available when a Puppet file has already been opened, to trigger the extension.&lt;/p&gt;
+&lt;p&gt;You can run the test suite of your Puppet module using the PDK and VS Code by using the &lt;code&gt;PDK: Test Unit&lt;/code&gt; command. This VS Code command opens up an integrated VS Code terminal and issues the &lt;code&gt;pdk test unit&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;You can execute the &lt;code&gt;PDK: Test Unit&lt;/code&gt; command using the the VS Code Command Palatte.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: This command is only available when the Puppet VS Code Extension has loaded&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/pdk_test_unit.gif&#34; alt=&#34;pdk_test_unit&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;unsupported-pdk-commands&#34;&gt;Unsupported PDK Commands&lt;/h2&gt;
+
+&lt;p&gt;The following commands are not available in the command palette as they are complicated commands that require user input to succeed. It is better to use these from the VS Code terminal inside your workspace.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pdk build&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdk bundle&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdk config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdk convert&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdk module&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pdk update&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;supported-pdk-versions&#34;&gt;Supported PDK versions&lt;/h2&gt;
+
+&lt;p&gt;The Puppet VS Code Extension supports the current PDK version, and one older version.&lt;/p&gt;
+
+&lt;h2 id=&#34;changing-puppet-version-used-by-vs-code&#34;&gt;Changing Puppet version used by VS Code&lt;/h2&gt;
+
+&lt;p&gt;You can change the Puppet version used by the Puppet VS Code Extension and the PDK commands listed above. This is useful when targeting certain Puppet versions when writing manifests, or when running PDK commands with a specific Puppet version.&lt;/p&gt;
+
+&lt;p&gt;The version is changed using the status bar in Visual Studio Code. Click on the Puppet version text in the status bar and then select which Puppet version you would like to use. Note that this will require Visual Studio Code to be restarted to take effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/change-puppet-version.gif&#34; alt=&#34;changing_puppet_version&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>

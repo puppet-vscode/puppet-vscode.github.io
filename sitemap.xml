@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://puppet-vscode.github.io/docs/features/formatting/</loc>
+    <lastmod>2019-09-24T12:02:02+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://puppet-vscode.github.io/docs/features/intellisense/</loc>
     <lastmod>2019-08-15T15:08:28+08:00</lastmod>
   </url>

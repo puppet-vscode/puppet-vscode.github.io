@@ -20,26 +20,26 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png"sizes="192x192">
 
-<title>Remote Development | Puppet VSCode Extension</title><meta property="og:title" content="Remote Development" />
-<meta property="og:description" content="Editing Puppet wherever you need to
+<title>Formatting | Puppet VSCode Extension</title><meta property="og:title" content="Formatting" />
+<meta property="og:description" content="Formatting your Puppet manifests
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://puppet-vscode.github.io/docs/features/remote-development/" />
-<meta property="article:modified_time" content="2019-08-15T15:08:28+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
-<meta itemprop="name" content="Remote Development">
-<meta itemprop="description" content="Editing Puppet wherever you need to
+<meta property="og:url" content="https://puppet-vscode.github.io/docs/features/formatting/" />
+<meta property="article:modified_time" content="2019-09-24T12:02:02+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
+<meta itemprop="name" content="Formatting">
+<meta itemprop="description" content="Formatting your Puppet manifests
 ">
 
 
-<meta itemprop="dateModified" content="2019-08-15T15:08:28&#43;08:00" />
-<meta itemprop="wordCount" content="9">
+<meta itemprop="dateModified" content="2019-09-24T12:02:02&#43;08:00" />
+<meta itemprop="wordCount" content="169">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Remote Development"/>
-<meta name="twitter:description" content="Editing Puppet wherever you need to
+<meta name="twitter:title" content="Formatting"/>
+<meta name="twitter:description" content="Formatting your Puppet manifests
 "/>
 
 
@@ -68,7 +68,7 @@ if (!doNotTrack) {
   crossorigin="anonymous"></script>
 
 
-    <title>Remote Development | Puppet VSCode Extension</title>
+    <title>Formatting | Puppet VSCode Extension</title>
   </head>
   <body class="td-page">
     <header>
@@ -227,7 +227,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-formatting" href="/docs/features/formatting/">Formatting</a>
+      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docs-features-formatting" href="/docs/features/formatting/">Formatting</a>
       
       
       
@@ -263,7 +263,7 @@ if (!doNotTrack) {
       
       
       
-      <a class="td-sidebar-link td-sidebar-link__page  active" id="m-docs-features-remote-development" href="/docs/features/remote-development/">Remote Development</a>
+      <a class="td-sidebar-link td-sidebar-link__page " id="m-docs-features-remote-development" href="/docs/features/remote-development/">Remote Development</a>
       
       
     </li>
@@ -303,8 +303,8 @@ if (!doNotTrack) {
 
 
 
-<a href="https://github.com/lingua-pupuli/docs/edit/master/vscode/content/en/docs/Features/Remote%20Development.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/lingua-pupuli/docs/issues/new?title=Remote%20Development" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href="https://github.com/lingua-pupuli/docs/edit/master/vscode/content/en/docs/Features/formatting.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/lingua-pupuli/docs/issues/new?title=Formatting" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 
 
 
@@ -314,6 +314,24 @@ if (!doNotTrack) {
 
 
 
+
+
+
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#format-while-you-type">Format While You Type</a>
+<ul>
+<li><a href="#hash-rocket-alignment">Hash Rocket Alignment</a></li>
+</ul></li>
+<li><a href="#format-document">Format Document</a>
+<ul>
+<li><a href="#format-on-save">Format on Save</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
 
 
 
@@ -347,7 +365,7 @@ if (!doNotTrack) {
 
 
 <li class="breadcrumb-item active" aria-current="page">
-	<a href="https://puppet-vscode.github.io/docs/features/remote-development/">Remote Development</a>
+	<a href="https://puppet-vscode.github.io/docs/features/formatting/">Formatting</a>
 </li>
 
 	</ol>
@@ -355,22 +373,60 @@ if (!doNotTrack) {
 
             
 <div class="td-content">
-	<h1>Remote Development</h1>
-	<div class="lead">Editing Puppet wherever you need to</div>
+	<h1>Formatting</h1>
+	<div class="lead">Formatting your Puppet manifests</div>
 	
 
-<div class="alert alert-success" role="alert">
-<h4 class="alert-heading">Coming Soon</h4>
-<p>Containers, WSL and Docker</p>
+<p>VS Code has great support for source <a href="https://code.visualstudio.com/docs/editor/codebasics#_formatting" target="_blank">code formatting</a>. You can invoke the formatting commands from the Command Palette (Ctrl+Shift+P) or the editor context menu.</p>
 
-<p>Under active development!!</p>
+<p>The Puppet VS Code extension supports; Format the line while typing and Format a file on save.</p>
+
+<h2 id="format-while-you-type">Format While You Type</h2>
+
+
+
+<div class="alert alert-secondary" role="alert">
+<h4 class="alert-heading">Information</h4>
+<ul>
+<li><p>This feature is disabled by default and is enabled using the <a href="../../extension-settings/#puppet-editorservice-formatontype-enable"><code>puppet.editorService.formatOnType.enable</code></a> setting</p></li>
+
+<li><p>Formatting will not occur on large documents (&gt; 4KB) or when using tabs for indentation</p></li>
+</ul>
 
 </div>
 
 
+<h3 id="hash-rocket-alignment">Hash Rocket Alignment</h3>
+
+<p>Automatically align hash rockets (also known as arrows or fat commas) when typing. The alignment happens with you type <code>&gt;</code>.</p>
+
+<p><img src="https://puppet-vscode.github.io/img/hash_rocket_alignment.gif" alt="hash_rocket_alignment" /></p>
+
+<h2 id="format-document">Format Document</h2>
+
+<p>The <code>Format Document</code> (<code>Shift+Alt+F</code> or ⇧⌥F) command automatically fixes any linting errors using the equivalent of <a href="https://github.com/rodjek/puppet-lint#fix-issues-automatically" target="_blank"><code>puppet-lint --fix</code></a>. See the <a href="http://puppet-lint.com/checks/" target="_blank">puppet-lint</a> documentation for information about the available checks.</p>
+
+
+
+<div class="alert alert-secondary" role="alert">
+<h4 class="alert-heading">Information</h4>
+<ul>
+<li>This feature is enabled by default and can be disabled using the <a href="../../extension-settings/#puppet-format-enable"><code>puppet.format.enable</code></a> setting</li>
+</ul>
+</div>
+
+
+<p><img src="https://puppet-vscode.github.io/img/format_document.gif" alt="format_document" /></p>
+
+<h3 id="format-on-save">Format on Save</h3>
+
+<p>VS Code can automatically apply any formatting fixes every time you save the document. You can enable this feature with the <code>editor.formatOnSave</code> <a href="https://code.visualstudio.com/docs/getstarted/settings#_default-settings" target="_blank">setting</a>.</p>
+
+<p><img src="https://puppet-vscode.github.io/img/format_on_save.gif" alt="format_on_save" /></p>
+
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified August 15, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/ed0ddfbd5577af33434ba1ec4486206c26d476eb">(GH-2) Use Docsy as template for all sites. (ed0ddfb)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified September 24, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/6217325e4ba4dce7b279746fa3dc95ce5bfb44e8">(GH-11) Add docs for document formatting (6217325)</a>
 </div>
 </div>
 

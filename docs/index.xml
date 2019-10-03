@@ -365,8 +365,6 @@ like to make changes, please create a project issue.
 
 &lt;p&gt;The absolute filepath where the Puppet Editor Service will output the debugging log. By default no logfile is generated&lt;/p&gt;
 
-&lt;p&gt;Default: &lt;code&gt;linguapupuli/puppet-language-server:latest&lt;/code&gt;&lt;/p&gt;
-
 &lt;h4 id=&#34;puppet-editorservice-enable&#34;&gt;puppet.editorService.enable&lt;/h4&gt;
 
 &lt;p&gt;Enable/disable advanced Puppet Language Features&lt;/p&gt;
@@ -376,6 +374,10 @@ like to make changes, please create a project issue.
 &lt;h4 id=&#34;puppet-editorservice-featureflags&#34;&gt;puppet.editorService.featureFlags&lt;/h4&gt;
 
 &lt;p&gt;An array of strings of experimental features to enable in the Puppet Editor Service&lt;/p&gt;
+
+&lt;h4 id=&#34;puppet-editorservice-formatontype-enable&#34;&gt;puppet.editorService.formatOnType.enable&lt;/h4&gt;
+
+&lt;p&gt;Enable/disable the Puppet document on-type formatter, for example hashrocket alignment&lt;/p&gt;
 
 &lt;h4 id=&#34;puppet-editorservice-hover-showmetadatainfo&#34;&gt;puppet.editorService.hover.showMetadataInfo&lt;/h4&gt;
 
@@ -393,9 +395,9 @@ like to make changes, please create a project issue.
 
 &lt;h4 id=&#34;puppet-editorservice-protocol&#34;&gt;puppet.editorService.protocol&lt;/h4&gt;
 
-&lt;p&gt;The protocol used to communicate with the Puppet Editor Service. By default the local STDIO protocol is used. The docker protocol is &lt;strong&gt;DEPRECATED&lt;/strong&gt; and will be removed in a future version&lt;/p&gt;
+&lt;p&gt;The protocol used to communicate with the Puppet Editor Service. By default the local STDIO protocol is used.&lt;/p&gt;
 
-&lt;p&gt;Possible values: &lt;code&gt;stdio&lt;/code&gt;, &lt;code&gt;tcp&lt;/code&gt;, &lt;code&gt;docker&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Possible values: &lt;code&gt;stdio&lt;/code&gt;, &lt;code&gt;tcp&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Default: &lt;code&gt;stdio&lt;/code&gt;&lt;/p&gt;
 
@@ -485,10 +487,6 @@ like to make changes, please create a project issue.
 
 &lt;!-- Begin Deprecated Settings --&gt;
 
-&lt;h4 id=&#34;puppet-editorservice-docker-imagename&#34;&gt;puppet.editorService.docker.imageName&lt;/h4&gt;
-
-&lt;p&gt;The name of the image with tag that contains the Puppet Language server. For example: linguapupuli/puppet-language-server:latest&lt;/p&gt;
-
 &lt;h4 id=&#34;puppet-editorservice-modulepath&#34;&gt;puppet.editorService.modulePath&lt;/h4&gt;
 
 &lt;p&gt;Please use puppet.editorService.puppet.modulePath instead&lt;/p&gt;
@@ -552,7 +550,7 @@ like to make changes, please create a project issue.
 &lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Information&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;This feature is disabled by default and is enabled using the &lt;a href=&#34;../../extension-settings/#puppet-editorservice-formatontype-enable&#34;&gt;&lt;code&gt;puppet.editorService.formatOnType.enable&lt;/code&gt;&lt;/a&gt; setting&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This feature is disabled by default, both by VS Code and the Puppet Extension.  It can be enabled using the &lt;a href=&#34;../../extension-settings/#puppet-editorservice-formatontype-enable&#34;&gt;&lt;code&gt;puppet.editorService.formatOnType.enable&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://code.visualstudio.com/docs/getstarted/settings#_default-settings&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;editor.formatOnType&lt;/code&gt;&lt;/a&gt; settings&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Formatting will not occur on large documents (&amp;gt; 4KB) or when using tabs for indentation&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;

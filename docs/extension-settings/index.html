@@ -25,14 +25,14 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://puppet-vscode.github.io/docs/extension-settings/" />
-<meta property="article:modified_time" content="2019-08-29T22:10:38+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
+<meta property="article:modified_time" content="2019-10-03T09:30:32+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
 <meta itemprop="name" content="Extension Settings">
 <meta itemprop="description" content="How do you configure the extension
 ">
 
 
-<meta itemprop="dateModified" content="2019-08-29T22:10:38&#43;08:00" />
-<meta itemprop="wordCount" content="579">
+<meta itemprop="dateModified" content="2019-10-03T09:30:32&#43;08:00" />
+<meta itemprop="wordCount" content="557">
 
 
 
@@ -320,6 +320,7 @@ if (!doNotTrack) {
 <li><a href="#puppet-editorservice-debugfilepath">puppet.editorService.debugFilePath</a></li>
 <li><a href="#puppet-editorservice-enable">puppet.editorService.enable</a></li>
 <li><a href="#puppet-editorservice-featureflags">puppet.editorService.featureFlags</a></li>
+<li><a href="#puppet-editorservice-formatontype-enable">puppet.editorService.formatOnType.enable</a></li>
 <li><a href="#puppet-editorservice-hover-showmetadatainfo">puppet.editorService.hover.showMetadataInfo</a></li>
 <li><a href="#puppet-editorservice-loglevel">puppet.editorService.loglevel</a></li>
 <li><a href="#puppet-editorservice-protocol">puppet.editorService.protocol</a></li>
@@ -344,7 +345,6 @@ if (!doNotTrack) {
 <ul>
 <li>
 <ul>
-<li><a href="#puppet-editorservice-docker-imagename">puppet.editorService.docker.imageName</a></li>
 <li><a href="#puppet-editorservice-modulepath">puppet.editorService.modulePath</a></li>
 <li><a href="#puppet-languageclient-minimumuserloglevel">puppet.languageclient.minimumUserLogLevel</a></li>
 <li><a href="#puppet-languageclient-protocol">puppet.languageclient.protocol</a></li>
@@ -413,8 +413,6 @@ like to make changes, please create a project issue.
 
 <p>The absolute filepath where the Puppet Editor Service will output the debugging log. By default no logfile is generated</p>
 
-<p>Default: <code>linguapupuli/puppet-language-server:latest</code></p>
-
 <h4 id="puppet-editorservice-enable">puppet.editorService.enable</h4>
 
 <p>Enable/disable advanced Puppet Language Features</p>
@@ -424,6 +422,10 @@ like to make changes, please create a project issue.
 <h4 id="puppet-editorservice-featureflags">puppet.editorService.featureFlags</h4>
 
 <p>An array of strings of experimental features to enable in the Puppet Editor Service</p>
+
+<h4 id="puppet-editorservice-formatontype-enable">puppet.editorService.formatOnType.enable</h4>
+
+<p>Enable/disable the Puppet document on-type formatter, for example hashrocket alignment</p>
 
 <h4 id="puppet-editorservice-hover-showmetadatainfo">puppet.editorService.hover.showMetadataInfo</h4>
 
@@ -441,9 +443,9 @@ like to make changes, please create a project issue.
 
 <h4 id="puppet-editorservice-protocol">puppet.editorService.protocol</h4>
 
-<p>The protocol used to communicate with the Puppet Editor Service. By default the local STDIO protocol is used. The docker protocol is <strong>DEPRECATED</strong> and will be removed in a future version</p>
+<p>The protocol used to communicate with the Puppet Editor Service. By default the local STDIO protocol is used.</p>
 
-<p>Possible values: <code>stdio</code>, <code>tcp</code>, <code>docker</code></p>
+<p>Possible values: <code>stdio</code>, <code>tcp</code></p>
 
 <p>Default: <code>stdio</code></p>
 
@@ -533,10 +535,6 @@ like to make changes, please create a project issue.
 
 <!-- Begin Deprecated Settings -->
 
-<h4 id="puppet-editorservice-docker-imagename">puppet.editorService.docker.imageName</h4>
-
-<p>The name of the image with tag that contains the Puppet Language server. For example: linguapupuli/puppet-language-server:latest</p>
-
 <h4 id="puppet-editorservice-modulepath">puppet.editorService.modulePath</h4>
 
 <p>Please use puppet.editorService.puppet.modulePath instead</p>
@@ -577,7 +575,7 @@ like to make changes, please create a project issue.
 
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified August 29, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/bd8ab13c18164f000138ddfa0c8f06e2a7187203">(maint) Update vscode website with release 0.20.0 (bd8ab13)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified October 3, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/7ca11b3e8b8cd79850da2bf5f7c58ff10bcbc4e9">(maint) Update releases for Puppet VS Code 0.21.0 (7ca11b3)</a>
 </div>
 </div>
 

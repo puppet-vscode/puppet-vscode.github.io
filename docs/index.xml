@@ -233,14 +233,36 @@ Now that you&amp;rsquo;ve installed the extension you may want configure&lt;/p&g
         
         
 
-&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
-&lt;h4 class=&#34;alert-heading&#34;&gt;Coming Soon&lt;/h4&gt;
-&lt;p&gt;Control Repositories&lt;/p&gt;
 
+
+&lt;div class=&#34;alert alert-success&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;More features coming soon&lt;/h4&gt;
 &lt;p&gt;Under active development!!&lt;/p&gt;
+
+&lt;p&gt;Many more &lt;a href=&#34;https://puppet.com/docs/pe/latest/control_repo.html&#34; target=&#34;_blank&#34;&gt;Control Repository&lt;/a&gt; features will be added&lt;/p&gt;
 
 &lt;/div&gt;
 
+
+&lt;h2 id=&#34;puppetfile-validation&#34;&gt;Puppetfile validation&lt;/h2&gt;
+
+&lt;p&gt;Quickly see validation errors in your &lt;a href=&#34;https://puppet.com/docs/pe/2019.2/puppetfile.html&#34; target=&#34;_blank&#34;&gt;Puppetfile&lt;/a&gt;, such as duplicate module definitions.&lt;/p&gt;
+
+&lt;p&gt;When &lt;a href=&#34;../../extension-settings/#puppet-validate-resolvepuppetfiles&#34;&gt;&lt;code&gt;puppet.validate.resolvePuppetfiles&lt;/code&gt;&lt;/a&gt; is enabled, the validation will also include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Module dependencies will be evaluated to make sure that the versions are correct and that the dependencies can actually be resolved.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The modules listed in the Puppetfile will also be validated that they are supported for the Puppet version being used by the extension. You can change the Puppet version using the &lt;a href=&#34;../../features/puppet-development-kit/#changing-puppet-version-used-by-vs-code&#34;&gt;Change Puppet version feature&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://puppet-vscode.github.io/img/puppetfile-resolver.gif&#34; alt=&#34;a_Puppetfile_with_validation_errors&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Note: The first time you open a Puppetfile, or add a module to a Puppetfile, validation may take longer than usual. This is expected for Puppet Forge modules that have many releases, such as the &lt;a href=&#34;https://forge.puppet.com/puppetlabs/stdlib&#34; target=&#34;_blank&#34;&gt;Stdlib module&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The extended validation uses the &lt;a href=&#34;https://github.com/lingua-pupuli/puppetfile-resolver&#34; target=&#34;_blank&#34;&gt;Puppetfile-Resolver&lt;/a&gt; project and has some caveats. Please see the &lt;a href=&#34;https://github.com/lingua-pupuli/puppetfile-resolver#known-issues&#34; target=&#34;_blank&#34;&gt;Known Issues&lt;/a&gt; of Puppetfile-Resolver project more information&lt;/p&gt;
+&lt;/blockquote&gt;
 
       </description>
     </item>
@@ -481,6 +503,12 @@ like to make changes, please create a project issue.
 
 &lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
 
+&lt;h4 id=&#34;puppet-validate-resolvepuppetfiles&#34;&gt;puppet.validate.resolvePuppetfiles&lt;/h4&gt;
+
+&lt;p&gt;Enable/disable using dependency resolution for Puppetfiles&lt;/p&gt;
+
+&lt;p&gt;Default: &lt;code&gt;True&lt;/code&gt;&lt;/p&gt;
+
 &lt;!-- End Available Settings --&gt;
 
 &lt;h2 id=&#34;deprecated-settings&#34;&gt;Deprecated settings&lt;/h2&gt;
@@ -642,7 +670,7 @@ like to make changes, please create a project issue.
 
 &lt;h2 id=&#34;live-workspace-intellisense&#34;&gt;Live Workspace Intellisense&lt;/h2&gt;
 
-&lt;p&gt;If you are editing a module, or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/control_repo.html&#34; target=&#34;_blank&#34;&gt;Control Repository&lt;/a&gt;, you will  get live intellisense of the &lt;a href=&#34;https://puppet.com/docs/puppet/latest/custom_types.html&#34; target=&#34;_blank&#34;&gt;Puppet Custom Types&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html&#34; target=&#34;_blank&#34;&gt;Functions&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_classes.html&#34; target=&#34;_blank&#34;&gt;Classes&lt;/a&gt; and &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_defined_types.html&#34; target=&#34;_blank&#34;&gt;Defined Types&lt;/a&gt;. For example if you are editing the &lt;a href=&#34;https://github.com/puppetlabs/puppetlabs-apache&#34; target=&#34;_blank&#34;&gt;puppetlabs-apache module&lt;/a&gt; you will be able to get auto-complete for resources like &lt;code&gt;apache::vhost&lt;/code&gt; or &lt;code&gt;apache::mod::php&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you are editing a module, or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/control_repo.html&#34; target=&#34;_blank&#34;&gt;Control Repository&lt;/a&gt;, you will get live intellisense of the &lt;a href=&#34;https://puppet.com/docs/puppet/latest/custom_types.html&#34; target=&#34;_blank&#34;&gt;Puppet Custom Types&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_write_functions_in_puppet.html&#34; target=&#34;_blank&#34;&gt;Functions&lt;/a&gt;, &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_classes.html&#34; target=&#34;_blank&#34;&gt;Classes&lt;/a&gt; and &lt;a href=&#34;https://puppet.com/docs/puppet/latest/lang_defined_types.html&#34; target=&#34;_blank&#34;&gt;Defined Types&lt;/a&gt;. For example if you are editing the &lt;a href=&#34;https://github.com/puppetlabs/puppetlabs-apache&#34; target=&#34;_blank&#34;&gt;puppetlabs-apache module&lt;/a&gt; you will be able to get auto-complete for resources like &lt;code&gt;apache::vhost&lt;/code&gt; or &lt;code&gt;apache::mod::php&lt;/code&gt;.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Note: Workspace Intellisense is only updated when you save a file, instead of features like linting which update as you type&lt;/p&gt;

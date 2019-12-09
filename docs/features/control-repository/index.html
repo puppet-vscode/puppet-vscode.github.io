@@ -21,25 +21,25 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png"sizes="192x192">
 
 <title>Control Repositories | Puppet VSCode Extension</title><meta property="og:title" content="Control Repositories" />
-<meta property="og:description" content="Intellisense for control repos
+<meta property="og:description" content="Intellisense for control repositories
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://puppet-vscode.github.io/docs/features/control-repository/" />
-<meta property="article:modified_time" content="2019-08-15T15:08:28+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
+<meta property="article:modified_time" content="2019-12-09T14:32:05+08:00" /><meta property="og:site_name" content="Puppet VS Code Extension" />
 <meta itemprop="name" content="Control Repositories">
-<meta itemprop="description" content="Intellisense for control repos
+<meta itemprop="description" content="Intellisense for control repositories
 ">
 
 
-<meta itemprop="dateModified" content="2019-08-15T15:08:28&#43;08:00" />
-<meta itemprop="wordCount" content="7">
+<meta itemprop="dateModified" content="2019-12-09T14:32:05&#43;08:00" />
+<meta itemprop="wordCount" content="152">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Control Repositories"/>
-<meta name="twitter:description" content="Intellisense for control repos
+<meta name="twitter:description" content="Intellisense for control repositories
 "/>
 
 
@@ -317,6 +317,8 @@ if (!doNotTrack) {
 
 
 
+
+
           </div>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
             <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
@@ -356,21 +358,43 @@ if (!doNotTrack) {
             
 <div class="td-content">
 	<h1>Control Repositories</h1>
-	<div class="lead">Intellisense for control repos</div>
+	<div class="lead">Intellisense for control repositories</div>
 	
 
-<div class="alert alert-success" role="alert">
-<h4 class="alert-heading">Coming Soon</h4>
-<p>Control Repositories</p>
 
+
+<div class="alert alert-success" role="alert">
+<h4 class="alert-heading">More features coming soon</h4>
 <p>Under active development!!</p>
+
+<p>Many more <a href="https://puppet.com/docs/pe/latest/control_repo.html" target="_blank">Control Repository</a> features will be added</p>
 
 </div>
 
 
+<h2 id="puppetfile-validation">Puppetfile validation</h2>
+
+<p>Quickly see validation errors in your <a href="https://puppet.com/docs/pe/2019.2/puppetfile.html" target="_blank">Puppetfile</a>, such as duplicate module definitions.</p>
+
+<p>When <a href="../../extension-settings/#puppet-validate-resolvepuppetfiles"><code>puppet.validate.resolvePuppetfiles</code></a> is enabled, the validation will also include:</p>
+
+<ul>
+<li><p>Module dependencies will be evaluated to make sure that the versions are correct and that the dependencies can actually be resolved.</p></li>
+
+<li><p>The modules listed in the Puppetfile will also be validated that they are supported for the Puppet version being used by the extension. You can change the Puppet version using the <a href="../../features/puppet-development-kit/#changing-puppet-version-used-by-vs-code">Change Puppet version feature</a>.</p></li>
+</ul>
+
+<p><img src="https://puppet-vscode.github.io/img/puppetfile-resolver.gif" alt="a_Puppetfile_with_validation_errors" /></p>
+
+<blockquote>
+<p>Note: The first time you open a Puppetfile, or add a module to a Puppetfile, validation may take longer than usual. This is expected for Puppet Forge modules that have many releases, such as the <a href="https://forge.puppet.com/puppetlabs/stdlib" target="_blank">Stdlib module</a></p>
+
+<p>The extended validation uses the <a href="https://github.com/lingua-pupuli/puppetfile-resolver" target="_blank">Puppetfile-Resolver</a> project and has some caveats. Please see the <a href="https://github.com/lingua-pupuli/puppetfile-resolver#known-issues" target="_blank">Known Issues</a> of Puppetfile-Resolver project more information</p>
+</blockquote>
+
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified August 15, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/ed0ddfbd5577af33434ba1ec4486206c26d476eb">(GH-2) Use Docsy as template for all sites. (ed0ddfb)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified December 9, 2019: <a  href="https://github.com/lingua-pupuli/docs/commit/e184e65c4bcdc641c596623873699be6b2b44bf8">(GH-3) Document the Puppetfile validation (e184e65)</a>
 </div>
 </div>
 

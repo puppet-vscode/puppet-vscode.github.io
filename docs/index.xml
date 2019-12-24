@@ -515,42 +515,6 @@ like to make changes, please create a project issue.
 
 &lt;!-- Begin Deprecated Settings --&gt;
 
-&lt;h4 id=&#34;puppet-editorservice-modulepath&#34;&gt;puppet.editorService.modulePath&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.puppet.modulePath instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageclient-minimumuserloglevel&#34;&gt;puppet.languageclient.minimumUserLogLevel&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.loglevel instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageclient-protocol&#34;&gt;puppet.languageclient.protocol&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.protocol instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageserver-address&#34;&gt;puppet.languageserver.address&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.tcp.address instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageserver-debugfilepath&#34;&gt;puppet.languageserver.debugFilePath&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.debugFilePath instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageserver-filecache-enable&#34;&gt;puppet.languageserver.filecache.enable&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.featureFlags with &amp;lsquo;filecache&amp;rsquo; instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageserver-port&#34;&gt;puppet.languageserver.port&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.tcp.port instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-languageserver-timeout&#34;&gt;puppet.languageserver.timeout&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.editorService.timeout instead&lt;/p&gt;
-
-&lt;h4 id=&#34;puppet-puppetagentdir&#34;&gt;puppet.puppetAgentDir&lt;/h4&gt;
-
-&lt;p&gt;Please use puppet.installDirectory instead&lt;/p&gt;
-
 &lt;!-- End Deprecated Settings --&gt;
 
       </description>

@@ -14,6 +14,53 @@
     
     
     <item>
+      <title>Blog: Release 0.22.0</title>
+      <link>https://puppet-vscode.github.io/blog/2019/12/20/release-0.22.0/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2019/12/20/release-0.22.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/592&#34; target=&#34;_blank&#34;&gt;GH-592&lt;/a&gt;) Add Puppetfile resolver in Puppet-Editor-Services&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/588&#34; target=&#34;_blank&#34;&gt;GH-588&lt;/a&gt;) Add server telemetry pass through&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/198&#34; target=&#34;_blank&#34;&gt;GH-198&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.23.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.23.0&lt;/a&gt; Added the Puppetfile Resolver for more in-depth Puppetfile validation&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/94&#34; target=&#34;_blank&#34;&gt;GH-94&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.23.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.23.0&lt;/a&gt; Added better intellisense when inside Bolt plans&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/commit/dd47821c56f9d984f428899c4dbfd982a2731206&#34; target=&#34;_blank&#34;&gt;Commit&lt;/a&gt;) Sends PDK version telemetry on start&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/commit/3464a3cc94ee8b972b7d7673fc3ee42fa874e39f&#34; target=&#34;_blank&#34;&gt;Commit&lt;/a&gt;) Update telemetry to v0.1.2&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/592&#34; target=&#34;_blank&#34;&gt;GH-592&lt;/a&gt;) Update Editor Services to version 0.23.0&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/193&#34; target=&#34;_blank&#34;&gt;GH-193&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.23.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.23.0&lt;/a&gt; Refactor the TCP and STDIO servers, protocols and handlers&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/commit/c3bd86f5b9a237b92f4c0e2d6c2ddc7aa5b0d9e5&#34; target=&#34;_blank&#34;&gt;Commit&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.23.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.23.0&lt;/a&gt; Update puppet-lint to version 2.4.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/579&#34; target=&#34;_blank&#34;&gt;GH-579&lt;/a&gt;) Fix build script extract path&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/199&#34; target=&#34;_blank&#34;&gt;GH-199&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.23.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.23.0&lt;/a&gt; Fixes for Puppet 6.11.0&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/139&#34; target=&#34;_blank&#34;&gt;GH-139&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.23.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.23.0&lt;/a&gt; Provide completions for defined types&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;removed&#34;&gt;Removed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/585&#34; target=&#34;_blank&#34;&gt;GH-585&lt;/a&gt;) Remove deprecated settings&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.21.0</title>
       <link>https://puppet-vscode.github.io/blog/2019/09/30/release-0.21.0/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>

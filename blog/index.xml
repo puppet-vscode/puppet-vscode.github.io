@@ -15,6 +15,54 @@
     
     
     <item>
+      <title>Blog: Release 0.24.0</title>
+      <link>https://puppet-vscode.github.io/blog/2020/02/28/release-0.24.0/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/02/28/release-0.24.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/610&#34; target=&#34;_blank&#34;&gt;GH-610&lt;/a&gt;) Highlighted text is replaced instead of surrounded with characters&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.23.0</title>
+      <link>https://puppet-vscode.github.io/blog/2020/01/31/release-0.23.0/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/01/31/release-0.23.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/213&#34; target=&#34;_blank&#34;&gt;GH-213&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.24.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.24.0&lt;/a&gt; Gather and use facts using sidecar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/289&#34; target=&#34;_blank&#34;&gt;GH-289&lt;/a&gt;) Fix paramter indentation after type declaration&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/605&#34; target=&#34;_blank&#34;&gt;GH-605&lt;/a&gt;) Use correct setting name for module path&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/199&#34; target=&#34;_blank&#34;&gt;GH-199&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.24.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.24.0&lt;/a&gt; Update stack trace tests for Puppet 5.5.18&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.22.0</title>
       <link>https://puppet-vscode.github.io/blog/2019/12/20/release-0.22.0/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>

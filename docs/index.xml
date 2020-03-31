@@ -936,6 +936,32 @@ line to your User Settings in Visual Studio Code:&lt;/p&gt;
     </item>
     
     <item>
+      <title>Docs: How to update</title>
+      <link>https://puppet-vscode.github.io/docs/how-to-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/docs/how-to-update/</guid>
+      <description>
+        
+        
+        
+
+&lt;p&gt;The Puppet extension is 🚚 moving! We are changing from &lt;code&gt;jpogran.puppet-vscode&lt;/code&gt; to &lt;code&gt;puppet.puppet-vscode&lt;/code&gt; in the VS Code Marketplace! Check out the &lt;a href=&#34;https://puppet.com/blog/whats-new-with-the-puppet-vscode-extension&#34; target=&#34;_blank&#34;&gt;puppet blog post&lt;/a&gt; for more information on why.&lt;/p&gt;
+
+&lt;p&gt;The new extension can be found at &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=puppet.puppet-vscode&#34; target=&#34;_blank&#34;&gt;Puppet VS Code&lt;/a&gt;. Note that the &lt;code&gt;jpogran.puppet-vscode&lt;/code&gt; extension will no longer receive updates.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-update-to-the-new-extension&#34;&gt;How to Update to the new Extension&lt;/h2&gt;
+
+&lt;p&gt;In order to use the new extension, you can install it using the &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery&#34; target=&#34;_blank&#34;&gt;normal installation methods&lt;/a&gt; or you can can also update it from the commandline by running the following commands:&lt;/p&gt;
+
+&lt;p&gt;To uninstall the &lt;code&gt;jpogran.puppet-vscode&lt;/code&gt; extension:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&amp;gt; code --uninstall-extension jpogran.puppet-vscode&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;To install the &lt;code&gt;puppet.puppet-vscode&lt;/code&gt; extension:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&amp;gt; code --install-extension puppet.puppet-vscode&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
       <title>Docs: Telemetry</title>
       <link>https://puppet-vscode.github.io/docs/telemetry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

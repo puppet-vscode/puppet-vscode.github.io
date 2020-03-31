@@ -30,7 +30,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Step 1: Install a supported version of the Puppet Development Kit on your system (see &lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt; for more information).&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Step 2: &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery#_install-an-extension&#34; target=&#34;_blank&#34;&gt;Install&lt;/a&gt; the Puppet &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=jpogran.puppet-vscode&#34; target=&#34;_blank&#34;&gt;extension&lt;/a&gt; for Visual Studio Code.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Step 2: &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery#_install-an-extension&#34; target=&#34;_blank&#34;&gt;Install&lt;/a&gt; the Puppet &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=puppetlabs.puppet-vscode&#34; target=&#34;_blank&#34;&gt;extension&lt;/a&gt; for Visual Studio Code.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Step 3: Open, or create, a Puppet manifest file (a file with a &lt;code&gt;.pp&lt;/code&gt; or &lt;code&gt;.epp&lt;/code&gt; extension) or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/puppetfile.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;Puppetfile&lt;/code&gt;&lt;/a&gt; and start automating!&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -374,7 +374,7 @@ Experimental features may not always work and could cause the extension to crash
 
 &lt;div class=&#34;alert alert-secondary&#34; role=&#34;alert&#34;&gt;
 &lt;h4 class=&#34;alert-heading&#34;&gt;Information&lt;/h4&gt;
-The setting information comes from the Puppet VS Code Extension &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/blob/master/package.json&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;package.json&lt;/code&gt;&lt;/a&gt; file. If you would
+The setting information comes from the Puppet VS Code Extension &lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/blob/master/package.json&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;package.json&lt;/code&gt;&lt;/a&gt; file. If you would
 like to make changes, please create a project issue.
 &lt;/div&gt;
 
@@ -919,7 +919,7 @@ This is an experimental feature
 &lt;p&gt;If you&amp;rsquo;re having trouble with the Puppet extension, please follow these instructions
 to file an issue on our GitHub repository:&lt;/p&gt;
 
-&lt;h3 id=&#34;1-file-an-issue-on-our-issues-page-https-github-com-lingua-pupuli-puppet-vscode-issues&#34;&gt;1. File an issue on our &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues&#34; target=&#34;_blank&#34;&gt;Issues Page&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;1-file-an-issue-on-our-issues-page-https-github-com-puppetlabs-puppet-vscode-issues&#34;&gt;1. File an issue on our &lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues&#34; target=&#34;_blank&#34;&gt;Issues Page&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Make sure to fill in the information that is requested in the issue template as it
 will help us investigate the problem more quickly.&lt;/p&gt;

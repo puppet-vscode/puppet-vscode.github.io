@@ -14,6 +14,106 @@
     
     
     <item>
+      <title>Blog: Release 0.24.2</title>
+      <link>https://puppet-vscode.github.io/blog/2020/03/30/release-0.24.2/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/03/30/release-0.24.2/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;Added button in warning dialog to auto-update &lt;code&gt;jpogran.puppet-vscode&lt;/code&gt; to &lt;code&gt;puppet.puppet-vscode&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.24.1</title>
+      <link>https://puppet-vscode.github.io/blog/2020/03/27/release-0.24.1/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/03/27/release-0.24.1/</guid>
+      <description>
+        
+        
+        &lt;ul&gt;
+&lt;li&gt;Deprecated &lt;code&gt;jpogran.puppet-vscode&lt;/code&gt; extension to transition to Puppet namespace &lt;code&gt;puppet.puppet-vscode&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.25.0</title>
+      <link>https://puppet-vscode.github.io/blog/2020/03/27/release-0.25.0/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/03/27/release-0.25.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-vscode/issues/614&#34; target=&#34;_blank&#34;&gt;GH-614&lt;/a&gt;) Puppet Node Graph Feature Rewrite&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/221&#34; target=&#34;_blank&#34;&gt;GH-221&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.25.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.25.0&lt;/a&gt; Puppet Node Graph JSON Response&lt;/li&gt;
+&lt;li&gt;(maint) &lt;a href=&#34;https://github.com/glennsarti/puppetfile-resolver/releases/tag/0.2.0&#34; target=&#34;_blank&#34;&gt;puppetfile-resolver-0.2.0&lt;/a&gt; Puppetfile Resolver v0.2.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/issues/207&#34; target=&#34;_blank&#34;&gt;GH-207&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-services/releases/tag/0.25.0&#34; target=&#34;_blank&#34;&gt;puppet-editor-services-0.25.0&lt;/a&gt; Allow Qualified Resource Names in hover provider&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.25.1</title>
+      <link>https://puppet-vscode.github.io/blog/2020/03/27/release-0.25.1/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/03/27/release-0.25.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated publisher in all places&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.25.2</title>
+      <link>https://puppet-vscode.github.io/blog/2020/03/27/release-0.25.2/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/03/27/release-0.25.2/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated telemetry class with new publisher&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.24.0</title>
       <link>https://puppet-vscode.github.io/blog/2020/02/28/release-0.24.0/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>

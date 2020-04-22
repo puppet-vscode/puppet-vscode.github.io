@@ -30,7 +30,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Step 1: Install a supported version of the Puppet Development Kit on your system (see &lt;a href=&#34;#prerequisites&#34;&gt;Prerequisites&lt;/a&gt; for more information).&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Step 2: &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery#_install-an-extension&#34; target=&#34;_blank&#34;&gt;Install&lt;/a&gt; the Puppet &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=puppetlabs.puppet-vscode&#34; target=&#34;_blank&#34;&gt;extension&lt;/a&gt; for Visual Studio Code.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Step 2: &lt;a href=&#34;https://code.visualstudio.com/docs/editor/extension-gallery#_install-an-extension&#34; target=&#34;_blank&#34;&gt;Install&lt;/a&gt; the Puppet &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=puppet.puppet-vscode&#34; target=&#34;_blank&#34;&gt;extension&lt;/a&gt; for Visual Studio Code.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Step 3: Open, or create, a Puppet manifest file (a file with a &lt;code&gt;.pp&lt;/code&gt; or &lt;code&gt;.epp&lt;/code&gt; extension) or a &lt;a href=&#34;https://puppet.com/docs/pe/latest/puppetfile.html&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;Puppetfile&lt;/code&gt;&lt;/a&gt; and start automating!&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;

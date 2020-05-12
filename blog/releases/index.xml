@@ -15,6 +15,29 @@
     
     
     <item>
+      <title>Blog: Release 0.26.1</title>
+      <link>https://puppet-vscode.github.io/blog/2020/05/12/release-0.26.1/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/05/12/release-0.26.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/647&#34; target=&#34;_blank&#34;&gt;GH-647&lt;/a&gt;) Add Puppet Facts Welcome View&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/583&#34; target=&#34;_blank&#34;&gt;GH-583&lt;/a&gt;) Optimize build script&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/662&#34; target=&#34;_blank&#34;&gt;GH-662&lt;/a&gt;) Update extension install gif&lt;/li&gt;
+&lt;li&gt;(maint) Update facts view telemetry&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.26.0</title>
       <link>https://puppet-vscode.github.io/blog/2020/05/01/release-0.26.0/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>

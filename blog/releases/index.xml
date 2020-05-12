@@ -15,6 +15,34 @@
     
     
     <item>
+      <title>Blog: Release 0.26.0</title>
+      <link>https://puppet-vscode.github.io/blog/2020/05/01/release-0.26.0/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/05/01/release-0.26.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/630&#34; target=&#34;_blank&#34;&gt;GH-630&lt;/a&gt;) Add Puppet ToolBar&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/631&#34; target=&#34;_blank&#34;&gt;GH-631&lt;/a&gt;) Add Puppet Facts View&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(maint) Alert if jpogran.puppet-vscode is installed&lt;/li&gt;
+&lt;li&gt;(maint) Update branding and links&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.24.2</title>
       <link>https://puppet-vscode.github.io/blog/2020/03/30/release-0.24.2/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>

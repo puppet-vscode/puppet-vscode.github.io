@@ -15,6 +15,43 @@
     
     
     <item>
+      <title>Blog: Release 0.27.0</title>
+      <link>https://puppet-vscode.github.io/blog/2020/06/08/release-0.27.0/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/06/08/release-0.27.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/666&#34; target=&#34;_blank&#34;&gt;GH-666&lt;/a&gt;) Add Puppetfile view to Puppet ToolBar&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/674&#34; target=&#34;_blank&#34;&gt;GH-674&lt;/a&gt;) Add Puppetfile forge module hover provider&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;changed&#34;&gt;Changed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/649&#34; target=&#34;_blank&#34;&gt;GH-649&lt;/a&gt;) Reduce activation events for extension&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/639&#34; target=&#34;_blank&#34;&gt;GH-639&lt;/a&gt;) Deprecate Bolt Commands&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/643&#34; target=&#34;_blank&#34;&gt;GH-643&lt;/a&gt;) Enable, configure and run prettier&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/642&#34; target=&#34;_blank&#34;&gt;GH-642&lt;/a&gt;) Migrate to eslint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/663&#34; target=&#34;_blank&#34;&gt;GH-663&lt;/a&gt;) Fix error when using paths with spaces on OSX&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/670&#34; target=&#34;_blank&#34;&gt;GH-670&lt;/a&gt;) Guard installType and installDirectory&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.26.1</title>
       <link>https://puppet-vscode.github.io/blog/2020/05/12/release-0.26.1/</link>
       <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>

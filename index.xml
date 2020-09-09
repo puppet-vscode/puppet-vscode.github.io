@@ -14,6 +14,95 @@
     
     
     <item>
+      <title>Blog: Release 0.28.0</title>
+      <link>https://puppet-vscode.github.io/blog/2020/07/20/release-0.28.0/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/07/20/release-0.28.0/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;added&#34;&gt;Added&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/691&#34; target=&#34;_blank&#34;&gt;GH-691&lt;/a&gt;) Add &lt;code&gt;pdk new defined_type&lt;/code&gt; command&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/681&#34; target=&#34;_blank&#34;&gt;GH-681&lt;/a&gt;) Activate extension when module folder is opened&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/682&#34; target=&#34;_blank&#34;&gt;GH-682&lt;/a&gt;) Set Puppet Forge api header version programatically&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/66&#34; target=&#34;_blank&#34;&gt;GH-66&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/releases/tag/1.3.7&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.7&lt;/a&gt; undef is not treated as a special value&lt;/li&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/issues/65&#34; target=&#34;_blank&#34;&gt;GH-65&lt;/a&gt;) &lt;a href=&#34;https://github.com/lingua-pupuli/puppet-editor-syntax/releases/tag/1.3.7&#34; target=&#34;_blank&#34;&gt;puppet-editor-syntax-1.3.7&lt;/a&gt; Tokenise Node names correctly&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.27.2</title>
+      <link>https://puppet-vscode.github.io/blog/2020/06/18/release-0.27.2/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/06/18/release-0.27.2/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/684&#34; target=&#34;_blank&#34;&gt;GH-684&lt;/a&gt;) Fix activation error when using PDK New Command in an empty workspace&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.27.3</title>
+      <link>https://puppet-vscode.github.io/blog/2020/06/18/release-0.27.3/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/06/18/release-0.27.3/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(maint) Fix release packaging process&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Release 0.27.1</title>
+      <link>https://puppet-vscode.github.io/blog/2020/06/11/release-0.27.1/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://puppet-vscode.github.io/blog/2020/06/11/release-0.27.1/</guid>
+      <description>
+        
+        
+        
+
+&lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(&lt;a href=&#34;https://github.com/puppetlabs/puppet-vscode/issues/678&#34; target=&#34;_blank&#34;&gt;GH-678&lt;/a&gt;) Remove invalid Configuration Defaults&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Blog: Release 0.27.0</title>
       <link>https://puppet-vscode.github.io/blog/2020/06/08/release-0.27.0/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>

@@ -465,11 +465,11 @@ like to make changes, please create a project issue.
 
 &lt;h4 id=&#34;puppet-installdirectory&#34;&gt;puppet.installDirectory&lt;/h4&gt;
 
-&lt;p&gt;The fully qualified path to the Puppet install directory. This can be a PDK or Puppet Agent installation. For example: &amp;lsquo;C:\Program Files\Puppet Labs\Puppet&amp;rsquo; or &amp;lsquo;/opt/puppetlabs/puppet&amp;rsquo;. If this is not set the extension will attempt to detect the installation directory&lt;/p&gt;
+&lt;p&gt;The fully qualified path to the Puppet install directory. This can be a PDK or Puppet Agent installation. For example: &amp;lsquo;C:\Program Files\Puppet Labs\Puppet&amp;rsquo; or &amp;lsquo;/opt/puppetlabs/puppet&amp;rsquo;. If this is not set the extension will attempt to detect the installation directory. Do &lt;strong&gt;not&lt;/strong&gt; use when &lt;code&gt;#puppet.installType#&lt;/code&gt; is set to &lt;code&gt;auto&lt;/code&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;puppet-installtype&#34;&gt;puppet.installType&lt;/h4&gt;
 
-&lt;p&gt;The type of Puppet installation. Either the Puppet Development Kit (pdk) or the Puppet Agent (agent). Choose &amp;lsquo;auto&amp;rsquo; to have the extension detect which to use automatically based on default install locations&lt;/p&gt;
+&lt;p&gt;The type of Puppet installation. Either the Puppet Development Kit (pdk) or the Puppet Agent (agent). Choose &lt;code&gt;auto&lt;/code&gt; to have the extension detect which to use automatically based on default install locations&lt;/p&gt;
 
 &lt;p&gt;Possible values: &lt;code&gt;auto&lt;/code&gt;, &lt;code&gt;pdk&lt;/code&gt;, &lt;code&gt;agent&lt;/code&gt;&lt;/p&gt;
 
